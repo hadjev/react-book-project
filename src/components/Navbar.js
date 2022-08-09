@@ -1,8 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
 
+import AuthButton from "./AuthButton.js";
+import { FaBars } from "react-icons/fa";
 import React from "react";
 import { links } from "../utils/navLinks";
-import logo from "../assets/logo1.png";
+import logo from "../assets/logo.png";
 import styled from "styled-components";
 
 function Navbar() {
@@ -13,6 +15,9 @@ function Navbar() {
           <Link to="/">
             <img src={logo} alt="book store" />
           </Link>
+          <button className="nav-toggle">
+            <FaBars />
+          </button>
         </div>
         <ul className="nav-links">
           {links.map((link) => {
@@ -24,6 +29,7 @@ function Navbar() {
             );
           })}
         </ul>
+        <AuthButton />
       </div>
     </NavContainer>
   );
@@ -66,7 +72,7 @@ const NavContainer = styled.nav`
   .nav-links {
     display: none;
   }
-  .cart-btn-wrapper {
+  .auth-btn-wrapper {
     display: none;
   }
   @media (min-width: 992px) {
@@ -95,7 +101,7 @@ const NavContainer = styled.nav`
         }
       }
     }
-    .cart-btn-wrapper {
+    .auth-btn-wrapper {
       display: grid;
     }
   }
