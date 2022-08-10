@@ -9,4 +9,9 @@ export const links = [
     text: "products",
     url: "/products",
   },
+  {
+    id: 3,
+    text: "about",
+    url: "/about",
+  },
 ];
