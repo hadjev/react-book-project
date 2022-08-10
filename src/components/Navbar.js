@@ -20,8 +20,7 @@ function Navbar() {
           </button>
         </div>
         <ul className="nav-links">
-          {links.map((link) => {
-            const { id, url, text } = link;
+          {links.map(({ id, url, text }) => {
             return (
               <li key={id}>
                 <NavLink to={url}>{text}</NavLink>
