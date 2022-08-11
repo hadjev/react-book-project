@@ -1,12 +1,15 @@
-import './index.css';
+import "./index.css";
 
-import App from './App';
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import App from "./App";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { SidebarProvider } from "./context/sidebarContext.js";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
+  <React.StrictMode>
+    <SidebarProvider>
+      <App />
+    </SidebarProvider>
+  </React.StrictMode>
 );

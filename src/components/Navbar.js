@@ -6,8 +6,11 @@ import React from "react";
 import { links } from "../utils/navLinks";
 import logo from "../assets/logo.png";
 import styled from "styled-components";
+import { useSidebarContext } from "../context/sidebarContext.js";
 
 function Navbar() {
+  const { openSidebar } = useSidebarContext();
+
   return (
     <NavContainer>
       <div className="nav-center">
@@ -15,7 +18,7 @@ function Navbar() {
           <Link to="/">
             <img src={logo} alt="book store" />
           </Link>
-          <button className="nav-toggle">
+          <button className="nav-toggle" onClick={openSidebar}>
             <FaBars />
           </button>
         </div>

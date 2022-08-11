@@ -6,8 +6,8 @@ export const links = [
   },
   {
     id: 2,
-    text: "products",
-    url: "/products",
+    text: "books",
+    url: "/books",
   },
   {
     id: 3,
