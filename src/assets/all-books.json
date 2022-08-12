@@ -1,0 +1,3060 @@
+[
+    {
+        "kind": "books#volume",
+        "id": "yzgzEAAAQBAJ",
+        "etag": "leaDaA0Q0vw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/yzgzEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Node.js in Action",
+            "authors": [
+                "Tim Oxley",
+                "Nathan Rajlich",
+                "TJ Holowaychuk",
+                "Alex Young"
+            ],
+            "publisher": "Simon and Schuster",
+            "publishedDate": "2017-08-16",
+            "description": "Summary Node.js in Action, Second Edition is a thoroughly revised book based on the best-selling first edition. It starts at square one and guides you through all the features, techniques, and concepts you'll need to build production-quality Node applications. Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications. About the Technology You already know JavaScript. The trick to mastering Node.js is learning how to build applications that fully exploit its powerful asynchronous event handling and non-blocking I/O features. The Node server radically simplifies event-driven real-time apps like chat, games, and live data analytics, and with its incredibly rich ecosystem of modules, tools, and libraries, it's hard to beat! About the Book Based on the bestselling first edition, Node.js in Action, Second Edition is a completely new book. Packed with practical examples, it teaches you how to create high-performance web servers using JavaScript and Node. You'll master key design concepts such as asynchronous programming, state management, and event-driven programming. And you'll learn to put together MVC servers using Express and Connect, design web APIs, and set up the perfect production environment to build, lint, and test. What's Inside Mastering non-blocking I/O The Node event loop Testing and deploying Web application templating About the Reader Written for web developers with intermediate JavaScript skills. About the Authors The Second Edition author team includes Node masters Alex Young, Bradley Meck, Mike Cantelon, and Tim Oxley, along with original authors Marc Harter, T.J. Holowaychuk, and Nathan Rajlich. Table of contents PART 1 - WELCOME TO NODE Welcome to Node.js Node programming fundamentals What is a Node web application? PART 2 - WEB DEVELOPMENT WITH NODE Front-end build systems Server-side frameworks Connect and Express in depth Web application templating Storing application data Testing Node applications Deploying Node applications and maintaining uptime PART 3 - BEYOND WEB DEVELOPMENT Writing command-line applications Conquering the desktop with Electron",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781638355175"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1638355177"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 392,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=yzgzEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=yzgzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=yzgzEAAAQBAJ&pg=PP1&dq=nodejs&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=yzgzEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=yzgzEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 38.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 38.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=yzgzEAAAQBAJ&rdid=book-yzgzEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 38990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 38990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Node_js_in_Action-sample-epub.acsm?id=yzgzEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=yzgzEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "About the Book Based on the bestselling first edition, Node.js in Action, Second Edition is a completely new book. Packed with practical examples, it teaches you how to create high-performance web servers using JavaScript and Node."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "rTgzEAAAQBAJ",
+        "etag": "ojS5wwbeAvA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/rTgzEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Node.js in Practice",
+            "authors": ["Marc Harter", "Alex Young"],
+            "publisher": "Simon and Schuster",
+            "publishedDate": "2014-12-03",
+            "description": "Summary Node.js in Practice is a collection of fully tested examples that offer solutions to the common and not-so-common issues you face when you roll out Node. You'll dig into important topics like the ins and outs of event-based programming, how and why to use closures, how to structure applications to take advantage of end-to-end JavaScript apps, and more. Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications. About the Book You've decided to use Node.js for your next project and you need the skills to implement Node in production. It would be great to have Node experts Alex Young and Marc Harter at your side to help you tackle those day-to-day challenges. With this book, you can! Node.js in Practice is a collection of 115 thoroughly tested examples and instantly useful techniques guaranteed to make any Node application go more smoothly. Following a common-sense Problem/Solution format, these experience-fueled techniques cover important topics like event-based programming, streams, integrating external applications, and deployment. The abundantly annotated code makes the examples easy to follow, and techniques are organized into logical clusters, so it's a snap to find what you're looking for. Written for readers who have a practical knowledge of JavaScript and the basics of Node.js. What's Inside Common usage examples, from basic to advanced Designing and writing modules Testing and debugging Node apps Integrating Node into existing systems About the Authors Alex Young is a seasoned JavaScript developer who blogs regularly at DailyJS. Marc Harter works daily on large-scale projects including high-availability real-time applications, streaming interfaces, and other data-intensive systems. Table of Contents PART 1 NODE FUNDAMENTALS Getting started Globals: Node's environment Buffers: Working with bits, bytes, and encodings Events: Mastering EventEmitter and beyond Streams: Node's most powerful and misunderstood feature File system: Synchronous and asynchronous approaches Networking: Node's true \"Hello, World\" Child processes: Integrating external applications with Node PART 2 REAL-WORLD RECIPES The Web: Build leaner and meaner web applications Tests: The key to confident code Debugging: Designing for introspection and resolving issues Node in production: Deploying applications safely PART 3 WRITING MODULES Writing modules: Mastering what Node is all about",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781638355182"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1638355185"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 424,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.1.1.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=rTgzEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=rTgzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=rTgzEAAAQBAJ&pg=PP1&dq=nodejs&hl=&cd=2&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=rTgzEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=rTgzEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 38.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 38.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=rTgzEAAAQBAJ&rdid=book-rTgzEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 38990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 38990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Node_js_in_Practice-sample-epub.acsm?id=rTgzEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=rTgzEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications. About the Book You&#39;ve decided to use Node.js for your next project and you need the skills to implement Node in production."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "G1y_5kpmatUC",
+        "etag": "OOef20sSKvE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/G1y_5kpmatUC",
+        "volumeInfo": {
+            "title": "Smashing Node.js",
+            "subtitle": "JavaScript Everywhere",
+            "authors": ["Guillermo Rauch"],
+            "publisher": "John Wiley & Sons",
+            "publishedDate": "2012-08-14",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781119963103"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1119963109"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 320,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "averageRating": 3.5,
+            "ratingsCount": 3,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.1.1.0.preview.3",
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=G1y_5kpmatUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=G1y_5kpmatUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=G1y_5kpmatUC&printsec=frontcover&dq=nodejs&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=G1y_5kpmatUC&dq=nodejs&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Smashing_Node_js.html?hl=&id=G1y_5kpmatUC"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Smashing_Node_js-sample-epub.acsm?id=G1y_5kpmatUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Smashing_Node_js-sample-pdf.acsm?id=G1y_5kpmatUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=G1y_5kpmatUC&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Teaching you the essentials to making event-driven server-side apps, this book demonstrates how you can use less space and take less time for communication between web client and server."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "ZH6bpbcrlvYC",
+        "etag": "o/85BoBXu2g",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ZH6bpbcrlvYC",
+        "volumeInfo": {
+            "title": "Professional Node.js",
+            "subtitle": "Building Javascript Based Scalable Software",
+            "authors": ["Pedro Teixeira"],
+            "publisher": "John Wiley & Sons",
+            "publishedDate": "2012-10-01",
+            "description": "Learn to build fast and scalable software in JavaScript with Node.js Node.js is a powerful and popular new framework for writing scalable network programs using JavaScript. This no nonsense book begins with an overview of Node.js and then quickly dives into the code, core concepts, and APIs. In-depth coverage pares down the essentials to cover debugging, unit testing, and flow control so that you can start building and testing your own modules right away. Covers node and asynchronous programming main concepts Addresses the basics: modules, buffers, events, and timers Explores streams, file systems, networking, and automated unit testing Goes beyond the basics, and shares techniques and tools for debugging, unit testing, and flow control If you already know JavaScript and are curious about the power of Node.js, then this is the ideal book for you.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781118240564"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1118240561"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 408,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.7.6.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=ZH6bpbcrlvYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=ZH6bpbcrlvYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=ZH6bpbcrlvYC&pg=PR1&dq=nodejs&hl=&cd=4&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=ZH6bpbcrlvYC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZH6bpbcrlvYC"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 29.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 29.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=ZH6bpbcrlvYC&rdid=book-ZH6bpbcrlvYC&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 29990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 29990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Professional_Node_js-sample-epub.acsm?id=ZH6bpbcrlvYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Professional_Node_js-sample-pdf.acsm?id=ZH6bpbcrlvYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=ZH6bpbcrlvYC&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Professional Node.js: Addresses querying, reading from, and writing to files Explores streams, file systems, networking, and automated unit testing Details how to read and write streams of data Zeroes-in on building TCP and HTTP servers and ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "PT4UAgAAQBAJ",
+        "etag": "U1Dh90ENOxs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/PT4UAgAAQBAJ",
+        "volumeInfo": {
+            "title": "Nodejs Programming By Example",
+            "subtitle": "",
+            "authors": ["Agus Kurniawan"],
+            "publisher": "PE Press",
+            "description": "This book is a reference to the nodejs programming language. It describes all the elements of the language and illustrates their use with code examples. Table of Content 1. Introduction to Nodejs 1.1 Installation 1.2 Hello World 1.3 Nodejs Modules 1.4 Update Nodejs Version 2. Nodejs Programming Language 2.1 Common Rule 2.2 Declaring Variable 2.3 Assigning Variables 2.4 Comment 2.5 Arithmetic Operations 2.6 Mathematical Functions 2.7 Comparison Operators 2.8 Logical Operators 2.9 Increment and Decrement 2.10 Decision 2.10.1 if..then 2.10.2 switch..case 2.11 Iterations 2.11.1 For 2.11.2 While 3. Nodejs Collections and JSON 3.1 Array 3.1.1 Create Array Object 3.1.2 Insert Data 3.1.3 Access Data 3.1.4 Update Data 3.1.5 Remove Data 3.2 Nodejs JSON 3.2.1 Create JSON Object 3.2.2 Display Data 3.2.3 Access Data 3.2.4 Edit Data 3.3 JSON Array 3.3.1 Create JSON Array 3.3.2 Display Data 3.3.3 Access Data 3.3.4 Edit Data 3.4 Check JSON Attribute 4. File Operations 4.1 File Modules 4.2 Reading Text 4.3 Creating File 5. Functions 5.1 Creating Function 5.2 Fuction with Returning Value 5.3 Function with Parameters and Returning Value 5.4 Callback Function 6. String Operations 6.1 Concatenating Strings 6.2 String To Numeric 6.3 Numeric to String 6.4 String Parser 6.5 Check String Data Length 6.6 Copy Data 6.7 Upper and Lower Case Characters 6.8 Getting String Index 6.9 Exploring Characters 7. Building Own Module 7.1 Create Simple Module 7.2 Module Class 8. Error Handling and Logging 8.1 Error Handling 8.2 Logging 9. Events 9.1 Events Module 9.2 Getting Started 9.4 Remove Events 10. Database Programming 10.1 Database Nodejs Modules 10.2 Sqlite 10.3 MySQL 10.4 MongoDB 11. Web Application 11.1 Getting Started 11.2 Manipulating HTTP Header 11.3 Handling Page Request 11.4 Working with HTTPS 11.5 ExpressJs 11.5.1 Installation 11.5.2 Getting Started 11.5.3 Handling Page Request 11.5.4 Expressjs for HTTPS 12. Socket Programming 12.1 Socket Module 12.2 Hello World 12.3 Client/Server Socket 12.3.1 Server Socket 12.3.2 Client Socket 12.3.3 Testing 12.4 UDP Socket 12.4.1 UDP Server 12.4.2 UDP Client 12.4.3 Testing 12.5 DNS 13. Socket.io 13.1 Getting Started 13.2 Hallo World 13.3 Socket.io and ExpressJs 13.4 Real-Time Monitoring",
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.2.2.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=PT4UAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=PT4UAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=PT4UAgAAQBAJ&pg=PT7&dq=nodejs&hl=&cd=5&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=PT4UAgAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=PT4UAgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 5.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 5.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=PT4UAgAAQBAJ&rdid=book-PT4UAgAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 5990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 5990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Nodejs_Programming_By_Example-sample-epub.acsm?id=PT4UAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=PT4UAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This chapter explains introduction of \u003cb\u003enodejs\u003c/b\u003e. The official web of \u003cb\u003enodejs\u003c/b\u003e could be found on http://www.\u003cb\u003enodejs\u003c/b\u003e.org. What is \u003cb\u003enodejs\u003c/b\u003e? Based on information from website, we could know what it is. \u003cb\u003eNode.js\u003c/b\u003e is a platform built on Chrome&#39;s&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "TTozEAAAQBAJ",
+        "etag": "9fTU/+L/f6Q",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/TTozEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Get Programming with Node.js",
+            "authors": ["Jonathan Wexler"],
+            "publisher": "Simon and Schuster",
+            "publishedDate": "2019-02-11",
+            "description": "Summary Get Programming with Node.js teaches you to build web servers using JavaScript and Node. In this engaging tutorial, you'll work through eight complete projects, from writing the code for your first web server to adding live chat to a web app. Your hands will stay on the keyboard as you explore the most important aspects of the Node development process, including security, database management, authenticating user accounts, and deploying to production. You'll especially appreciate the easy-to-follow discussions, illuminating diagrams, and carefully explained code! Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications. About the Technology Node.js delivers the speed and reliability you need for ecommerce, social media, and gaming applications. It comes with thousands of prebuilt packages to help you get started immediately. If you want to use JavaScript on the server, Node.js is your choice. What's inside New features from ES2015 and later Writing asynchronous code Creating data models Debugging JavaScript modules About the Reader Written for front-end web developers with intermediate JavaScript skills. Table of Contents GETTING SET UP Lesson 0 - Setting up Node.js and the JavaScript engine Lesson 1 - Configuring your environment Lesson 2 - Running a Node.js application UNIT 1 - GETTING STARTED WITH NODE.JS Lesson 3 - Creating a Node.js module Lesson 4 - Building a simple web server in Node.js Lesson 5 - Handling incoming data Lesson 6 - Writing better routes and serving external files Lesson 7 - Capstone: Creating your first web application UNIT 2 - EASIER WEB DEVELOPMENT WITH EXPRESS.JS Lesson 8 - Setting up an app with Express.js Lesson 9 - Routing in Express.js Lesson 10 - Connecting views with templates Lesson 11 - Configurations and error handling Lesson 12 - Capstone: Enhancing the Confetti Cuisine site with Express.js UNIT 3 - CONNECTING TO A DATABASE Lesson 13 - Setting up a MongoDB database Lssson 14 - Building models with Mongoose Lesson 15 - Connecting controllers and models Using promises with Mongoose Lesson 16 - Capstone: Saving user subscriptions UNIT 4 - BUILDING A USER MODEL Lesson 17 - Improving your data models Lesson 18 - Building the user model Lesson 19 - Creating and reading your models Lesson 20 - Updating and deleting your models Lesson 21 - Capstone: Adding CRUD models to Confetti Cuisine Creating controllers UNIT 5 - AUTHENTICATING USER ACCOUNTS Lesson 22 - Adding sessions and flash messages Lesson 23 - Building a user login and hashing passwords Lesson 24 - Adding user authentication Lesson 25 - Capstone: Adding user authentication to Confetti Cuisine UNIT 6 - BUILDING AN API Lesson 26 - Adding an API to your application Lesson 27 - Accessing your API from your application Lesson 28 - Adding API security Lesson 29 - Capstone: Implementing an API UNIT 7 - ADDING CHAT FUNCTIONALITY Lesson 30 - Working with Socket.io Lesson 31 - Saving chat messages Lesson 32 - Adding a chat notification indicator UNIT 8 - DEPLOYING AND MANAGING CODE IN PRODUCTION Lesson 33 - Capstone: Adding a chat feature to Confetti Cuisine Lesson 34 - Deploying your application Lesson 35 - Managing in production Lesson 36 - Testing your application Lesson 37 - Capstone: Deploying Confetti Cuisine",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781638352402"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1638352402"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 480,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.2.2.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=TTozEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=TTozEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=TTozEAAAQBAJ&pg=PP1&dq=nodejs&hl=&cd=6&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=TTozEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=TTozEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 38.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 38.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=TTozEAAAQBAJ&rdid=book-TTozEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 38990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 38990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Get_Programming_with_Node_js-sample-epub.acsm?id=TTozEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=TTozEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "You&#39;ll especially appreciate the easy-to-follow discussions, illuminating diagrams, and carefully explained code! Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "2e_sngEACAAJ",
+        "etag": "H5TwSJNvZts",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/2e_sngEACAAJ",
+        "volumeInfo": {
+            "title": "Mastering Node.js",
+            "authors": ["Sandro Pasquali"],
+            "publisher": "Packt Pub Limited",
+            "publishedDate": "2013-09",
+            "description": "This book contains an extensive set of practical examples and an easy-to-follow approach to creating 3D objects.This book is great for anyone who already knows JavaScript and who wants to start creating 3D graphics that run in any browser. You don't need to know anything about advanced math or WebGL; all that is needed is a general knowledge of JavaScript and HTML. The required materials and examples can be freely downloaded and all tools used in this book are open source.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1782166327"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781782166320"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 346,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=2e_sngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=2e_sngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=2e_sngEACAAJ&dq=nodejs&hl=&cd=7&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=2e_sngEACAAJ&dq=nodejs&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Mastering_Node_js.html?hl=&id=2e_sngEACAAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=2e_sngEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This book contains an extensive set of practical examples and an easy-to-follow approach to creating 3D objects.This book is great for anyone who already knows JavaScript and who wants to start creating 3D graphics that run in any browser."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "4QKACwAAQBAJ",
+        "etag": "/uWumXO2m98",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/4QKACwAAQBAJ",
+        "volumeInfo": {
+            "title": "Web Development with MongoDB and NodeJS",
+            "authors": [
+                "Mithun Satheesh",
+                "Bruno Joseph D'mello",
+                "Jason Krol"
+            ],
+            "publisher": "Packt Publishing Ltd",
+            "publishedDate": "2015-10-30",
+            "description": "Build an interactive and full-featured web application from scratch using Node.js and MongoDB About This Book Configure your development environment to use Node.js and MongoDB Use Node.js to connect to a MongoDB database and perform data manipulations A practical guide with clear instructions to design and develop a complete web application from start to finish Who This Book Is For This book is designed for JavaScript developers of any skill level that want to get up and running using Node.js and MongoDB to build full-featured web applications. A basic understanding of JavaScript and HTML is the only requirement for this book. What You Will Learn Configure your development environment to use Node.js and MongoDB Write and configure a web server using Node.js powered by the Express.js framework Build dynamic HTML pages using the Handlebars template engine Persist application data using MongoDB and Mongoose ODM Test your code using automated testing tools such as the Mocha framework Deploy the development environment to the cloud using services such as Heroku, Amazon Web Services, and Microsoft Azure Explore Single-Page application frameworks to take your web applications to the next level In Detail Node.js and MongoDB are quickly becoming one of the most popular tech stacks for the web. Powered by Google's V8 engine, Node.js caters to easily building fast, scalable network applications while MongoDB is the perfect fit as a scalable, high-performance, open source NoSQL database solution. Using these two technologies together, web applications can be built quickly and easily and deployed to the cloud with very little difficulty. The book will begin by introducing you to the groundwork needed to set up the development environment. Here, you will quickly run through the steps necessary to get the main application server up and running. Then you will see how to use Node.js to connect to a MongoDB database and perform data manipulations. From here on, the book will take you through integration with third-party tools for interaction with web apps. It then moves on to show you how to use controllers and view models to generate reusable code that will reduce development time. Toward the end of the book, we will cover tests to properly execute the code and some popular frameworks for developing web applications. By the end of the book, you will have a running web application developed with MongoDB and Node.js along with it's popular frameworks. Style and approach An easy guide to Node.js and MongoDB, which will quickly introduce you to the relevant concepts by taking you through the different steps involved in building a full-fledged web application.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781785287459"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1785287451"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 300,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.1.2.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=4QKACwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=4QKACwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=4QKACwAAQBAJ&pg=PA2&dq=nodejs&hl=&cd=8&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=4QKACwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4QKACwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 33.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 21.09,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=4QKACwAAQBAJ&rdid=book-4QKACwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 33990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 21090000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=4QKACwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "With the introduction of \u003cb\u003eNode.js\u003c/b\u003e, JavaScript has officially gone in a direction that was never even possible before. Now you can use JavaScript on the server and you can also use it to develop full-scale, enterprise-level applications."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "fQJ2DwAAQBAJ",
+        "etag": "Gz+m1kRLGXE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/fQJ2DwAAQBAJ",
+        "volumeInfo": {
+            "title": "Practical Node.js",
+            "subtitle": "Building Real-World Scalable Web Apps",
+            "authors": ["Azat Mardan"],
+            "publisher": "Apress",
+            "publishedDate": "2018-08-17",
+            "description": "Learn how to build a wide range of scalable real-world web applications using a professional development toolkit. If you already know the basics of Node.js, now is the time to discover how to bring it to production level by leveraging its vast ecosystem of packages.With this book, you'll work with a varied collection of standards and frameworks and see how all those pieces fit together. Practical Node.js takes you from installing all the necessary modules to writing full-stack web applications. You'll harness the power of the Express.js and Hapi frameworks, the MongoDB database with Mongoskin and Mongoose. You'll also work with Pug and Handlebars template engines, Stylus and LESS CSS lanaguages, OAuth and Everyauth libraries, and the Socket.IO and Derby libraries, and everything in between. This exciting second edition is fully updated for ES6/ES2015 and also covers how to deploy to Heroku and AWS, daemonize apps, and write REST APIs. You'll build full-stack real-world Node.js apps from scratch, and also discover how to write your own Node.js modules and publish them on NPM. You already know what Node.js is; now learn what you can do with it and how far you can take it! What You'll Learn Manipulate data from the mongo console Use the Mongoskin and Mongoose MongoDB libraries Build REST API servers with Express and Hapi Deploy apps to Heroku and AWS Test services with Mocha, Expect and TravisCI Utilize sessions for authentication Implement a third-party OAuth strategy with Everyauth Apply Redis, domains, WebSockets, and clusters Write your own Node.js module, and publish it on NPM Who This Book Is For Web developers who have some familiarity with the basics of Node.js and want to learn how to use it to build apps in a professional environment.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781484230398"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1484230396"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 505,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.1.2.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=fQJ2DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=fQJ2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=fQJ2DwAAQBAJ&pg=PR1&dq=nodejs&hl=&cd=9&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=fQJ2DwAAQBAJ&dq=nodejs&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Practical_Node_js.html?hl=&id=fQJ2DwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Practical_Node_js-sample-pdf.acsm?id=fQJ2DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=fQJ2DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "If you already know the basics of Node.js, now is the time to discover how to bring it to production level by leveraging its vast ecosystem of packages.With this book, you&#39;ll work with a varied collection of standards and frameworks and see ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "sSAGEAAAQBAJ",
+        "etag": "Hv+kZaljewY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/sSAGEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Learn NodeJS in 24 Hours",
+            "subtitle": "Complete Node JS Guide with Examples",
+            "authors": ["Alex Nordeen"],
+            "publisher": "Guru99",
+            "publishedDate": "2020-10-31",
+            "description": "Node.js supports both client and server side applications. It is based on JavaScript and is very fast in operation. These distinctive features made node.js as one of the most powerful framework in the Java Ecosystem. JavaScript alone allows you to build real-time and scalable mobile and web applications. With this e-book, you will explore more on the node.js framework and how to use it efficiently for web development. Average developers or beginners who struggle to understand node.js basics will find this book very helpful and productive. The book tried to put examples that simplify problems usually faced by the users like how asynchronous code works, what are modules, how big file can be read, node.js express, etc. You will find that lots of concepts that take a long time to master can be learned in a day or two. If this is your first interaction with node.js and don’t want all sort of troubles that arise with the node, this edition is recommended. After going through this e-book, node.js will become an absolute pleasure. Table of content Chapter 1: Introduction 1. Introduction to Node.js 2. What is Node.js? 3. Why use Node.js? 4. Features of Node.js 5. Who uses Node.js 6. When to Use Node.js 7. When to not use Node.js Chapter 2: How to Download & Install Node.js - NPM on Windows 1. How to install Node.js on Windows 2. Installing NPM (Node Package Manager) on Windows 3. Running your first Hello World application in Node.js Chapter 3: Node.js NPM Tutorial: Create, Publish, Extend & Manage 1. What are modules in Node.js? 2. Using modules in Node.js 3. Creating NPM modules 4. Extending modules 5. Publishing NPM(Node Package Manager) Modules 6. Managing third party packages with npm 7. What is the package.json file Chapter 4: Create HTTP Web Server in Node.js: Complete Tutorial 1. Node as a web server using HTTP 2. Handling GET Requests in Node.js Chapter 5: Node.js Express FrameWork Tutorial 1. What is Express.js? 2. Installing and using Express 3. What are Routes? 4. Sample Web server using express.js Chapter 6: Node.js MongoDB Tutorial with Examples 1. Node.js and NoSQL Databases 2. Using MongoDB and Node.js 3. How to build a node express app with MongoDB to store and serve content Chapter 7: Node.js Promise Tutorial 1. What are promises? 2. Callbacks to promises 3. Dealing with nested promises 4. Creating a custom promise Chapter 8: Bluebird Promises Tutorial Chapter 9: Node.js Generators & Compare with Callbacks 1. What are generators? 2. Callbacks vs. generators Chapter 10: Node js Streams Tutorial: Filestream, Pipes 1. Filestream in Node.js 2. Pipes in Node.js 3. Events in Node.js 4. Emitting Events Chapter 11: Node.js Unit Testing Tutorial with Jasmine 1. Overview of Jasmine for testing Node.js applications 2. How to use Jasmine to test Node.js applications Chapter 12: Node.Js Vs AngularJS: Know the Difference 1. What is Node JS? 2. What is Angular JS? 3. Node JS VS. Angular JS 4. What Is Better Node JS Or Angular JS? Chapter 13: Node.js Vs Python: What's the Difference? 1. What is Node.js? 2. What is Python? 3. Node.JS Vs. Python 4. When to use Node js? 5. When to use Python?",
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 108,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=sSAGEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=sSAGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=sSAGEAAAQBAJ&printsec=frontcover&dq=nodejs&hl=&cd=10&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=sSAGEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=sSAGEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 9.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 9.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=sSAGEAAAQBAJ&rdid=book-sSAGEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 9990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 9990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Learn_NodeJS_in_24_Hours-sample-epub.acsm?id=sSAGEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Learn_NodeJS_in_24_Hours-sample-pdf.acsm?id=sSAGEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=sSAGEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "If this is your first interaction with node.js and don’t want all sort of troubles that arise with the node, this edition is recommended. After going through this e-book, node.js will become an absolute pleasure."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "ppjUtAEACAAJ",
+        "etag": "K0X+QeE5ARU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ppjUtAEACAAJ",
+        "volumeInfo": {
+            "title": "Fullstack React",
+            "subtitle": "The Complete Guide to ReactJS and Friends",
+            "authors": ["Accomazzo Anthony", "Murray Nathaniel", "Ari Lerner"],
+            "publisher": "Fullstack.IO",
+            "publishedDate": "2017-03",
+            "description": "LEARN REACT TODAY The up-to-date, in-depth, complete guide to React and friends. Become a ReactJS expert today",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0991344626"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780991344628"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 836,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=ppjUtAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=ppjUtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=ppjUtAEACAAJ&dq=react&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=ppjUtAEACAAJ&dq=react&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Fullstack_React.html?hl=&id=ppjUtAEACAAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=ppjUtAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "LEARN REACT TODAY The up-to-date, in-depth, complete guide to React and friends. Become a ReactJS expert today"
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "RRLmDwAAQBAJ",
+        "etag": "zsF4tKb435Q",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/RRLmDwAAQBAJ",
+        "volumeInfo": {
+            "title": "The Road to React",
+            "subtitle": "Your journey to master plain yet pragmatic React.js",
+            "authors": ["Robin Wieruch"],
+            "publisher": "Robin Wieruch",
+            "publishedDate": "2017-11-15",
+            "description": "LAST UPDATE: 09. June 2021 If you are looking for a comprehensive and pragmatic yet concise and up-to-date React.js feat. Hooks book, the Road to React is for you. What you will learn. In \"The Road to React\" you will learn about all the fundamentals of React.js with Hooks while building a full-blown React application step by step. While you create the React application, every chapter will introduce you to a new React key feature. However, there is more than only the fundamentals: The book dives into related topics (e.g. React with TypeScript, Testing, Performance Optimizations) and advanced feature implementations like client- and server-side searching. At the end of the book, you will have a fully working deployed React application. Is it up to date? Programming books are usually outdated soon after their release, but since this book is self- published, I can update it as needed whenever a new version of something related to this book gets released. I am a beginner. Is this book for me? Yes. The book starts from zero and takes you through the learning experience step by step. Every chapter builds up on the learnings from the previous chapter. In addition, at the end of every chapter, exercises fortify your lessons learned. If you got stuck in a chapter, you will always find a reference URL to the status quo of the actual code. Core Concepts Pragmatic: Master React while building a complete application step by step. Problems Solving: You need to experience a problem first before solving it. The Why: Readers like how the book answers the Why, not only the How. Table of Contents Fundamentals of React Hello React Requirements Setting up a React Project Meet the React Component React JSX Lists in React Meet another React Component React Component Instantiation ReactDOM React Component Definition (Advanced) Handler Function in JSX React Props React State Callback Handlers in JSX Lifting State in React React Controlled Components Props Handling (Advanced) React Side-Effects React Custom Hooks (Advanced) React Fragments Reusable React Component React Component Composition Imperative React Inline Handler in JSX React Asynchronous Data React Conditional Rendering React Advanced State React Impossible States Data Fetching with React Data Re-Fetching in React Memoized Handler in React (Advanced) Explicit Data Fetching with React Third-Party Libraries in React Async/Await in React (Advanced) Forms in React React's Legacy React Class Components React Class Components: State Imperative React Styling in React CSS in React CSS Modules in React Styled Components in React SVGs in React React Maintenance Performance in React (Advanced) TypeScript in React Unit Testing to Integration Testing React Project Structure Real World React (Advanced) Sorting Reverse Sort Remember Last Searches Paginated Fetch Deploying a React Application Build Process Deploy to Firebase",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781720043997"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "172004399X"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 252,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.9.9.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=RRLmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=RRLmDwAAQBAJ&pg=PP1&dq=react&hl=&cd=2&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=RRLmDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RRLmDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 29.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 29.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=RRLmDwAAQBAJ&rdid=book-RRLmDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 29990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 29990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=RRLmDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Programming books are usually outdated soon after their release, but since this book is self- published, I can update it as needed whenever a new version of something related to this book gets released. I am a beginner. Is this book for me?"
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "tjjrDwAAQBAJ",
+        "etag": "LEwtcfdSl8M",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/tjjrDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Learning React",
+            "subtitle": "Modern Patterns for Developing React Apps",
+            "authors": ["Alex Banks", "Eve Porcello"],
+            "publisher": "\"O'Reilly Media, Inc.\"",
+            "publishedDate": "2020-06-12",
+            "description": "If you want to learn how to build efficient React applications, this is your book. Ideal for web developers and software engineers who understand how JavaScript, CSS, and HTML work in the browser, this updated edition provides best practices and patterns for writing modern React code. No prior knowledge of React or functional JavaScript is necessary. With their learning road map, authors Alex Banks and Eve Porcello show you how to create UIs that can deftly display changes without page reloads on large-scale, data-driven websites. You’ll also discover how to work with functional programming and the latest ECMAScript features. Once you learn how to build React components with this hands-on guide, you’ll understand just how useful React can be in your organization. Understand key functional programming concepts with JavaScriptLook under the hood to learn how React runs in the browserCreate application presentation layers with React componentsManage data and reduce the time you spend debugging applicationsIncorporate React Hooks to manage state and fetch dataUse a routing solution for single-page application featuresLearn how to structure React applications with servers in mind",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781492051671"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1492051675"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 310,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=tjjrDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=tjjrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=tjjrDwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=3&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=tjjrDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tjjrDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 50.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 50.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=tjjrDwAAQBAJ&rdid=book-tjjrDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 50990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 50990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=tjjrDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "If you want to learn how to build efficient React applications, this is your book."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "7KVYDwAAQBAJ",
+        "etag": "QJHoBkMjufo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/7KVYDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Learning React",
+            "subtitle": "A Hands-On Guide to Building Web Applications Using React and Redux",
+            "authors": ["Kirupa Chinnathambi"],
+            "publisher": "Addison-Wesley Professional",
+            "publishedDate": "2018-04-26",
+            "description": "Learning React A hands-on guide to building web applications using React and Redux As far as new web frameworks and libraries go, React is quite the runaway success. It not only deals with the most common problems developers face when building complex apps, it throws in a few additional tricks that make building the visuals for such apps much, much easier. What React isn’t, though, is beginner-friendly and approachable. Until now. In Learning React , author Kirupa Chinnathambi brings his fresh, clear, and very personable writing style to help web developers new to React understand its fundamentals and how to use it to build really performant (and awesome) apps. The only book on the market that helps you get your first React app up and running in just minutes, Learning React is chock-full of colorful illustrations to help you visualize difficult concepts and practical step-by-step examples to show you how to apply what you learn. Build your first React app Create components to define parts of your UI Combine components into other components to build more complex UIs Use JSX to specify visuals without writing full-fledged JavaScript Deal with maintaining state Work with React’s way of styling content Make sense of the mysterious component lifecycle Build multi-page apps using routing and views Optimize your React workflow using tools such as Node, Babel, webpack, and others Use Redux to make managing your app data and state easy Contents at a Glance 1 Introducing React 2 Building Your First React App 3 Components in React 4 Styling in React 5 Creating Complex Components 6 Transferring Properties 7 Meet JSX... Again! 8 Dealing with State in React 9 Going from Data to UI in React 10 Events in React 11 The Component Lifecycle 12 Accessing DOM Elements in React 13 Setting Up Your React Dev Environment 14 Working with External Data in React 15 Building an Awesome Todo List App in React 16 Creating a Sliding Menu in React 17 Avoiding Unnecessary Renders in React 18 Creating a Single-Page App in React Using React Router 19 Introduction to Redux 20 Using Redux with React",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780134843575"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0134843576"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 240,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.3.3.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=7KVYDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=7KVYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=7KVYDwAAQBAJ&pg=PP1&dq=react&hl=&cd=4&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=7KVYDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7KVYDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 31.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 17.27,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=7KVYDwAAQBAJ&rdid=book-7KVYDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 31990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 17270000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Learning_React-sample-epub.acsm?id=7KVYDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Learning_React-sample-pdf.acsm?id=7KVYDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=7KVYDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "The only book on the market that helps you get your first React app up and running in just minutes, Learning React is chock-full of colorful illustrations to help you visualize difficult concepts and practical step-by-step examples to show ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "pMTADgAAQBAJ",
+        "etag": "yCO7ZcjWl70",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/pMTADgAAQBAJ",
+        "volumeInfo": {
+            "title": "Learning React",
+            "subtitle": "Functional Web Development with React and Redux",
+            "authors": ["Alex Banks", "Eve Porcello"],
+            "publisher": "\"O'Reilly Media, Inc.\"",
+            "publishedDate": "2017-04-27",
+            "description": "If you want to learn how to build efficient user interfaces with React, this is your book. Authors Alex Banks and Eve Porcello show you how to create UIs with this small JavaScript library that can deftly display data changes on large-scale, data-driven websites without page reloads. Along the way, you’ll learn how to work with functional programming and the latest ECMAScript features. Developed by Facebook, and used by companies including Netflix, Walmart, and The New York Times for large parts of their web interfaces, React is quickly growing in use. By learning how to build React components with this hands-on guide, you’ll fully understand how useful React can be in your organization. Learn key functional programming concepts with JavaScript Peek under the hood to understand how React runs in the browser Create application presentation layers by mounting and composing React components Use component trees to manage data and reduce the time you spend debugging applications Explore React’s component lifecycle and use it to load data and improve UI performance Use a routing solution for browser history, bookmarks, and other features of single-page applications Learn how to structure React applications with servers in mind",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781491954577"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1491954574"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 350,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "0.2.5.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=pMTADgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=pMTADgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=pMTADgAAQBAJ&pg=PP1&dq=react&hl=&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=pMTADgAAQBAJ&dq=react&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Learning_React.html?hl=&id=pMTADgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=pMTADgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "If you want to learn how to build efficient user interfaces with React, this is your book."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "SM2NDwAAQBAJ",
+        "etag": "eqa71zQjCP4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/SM2NDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Pro React 16",
+            "authors": ["Adam Freeman"],
+            "publisher": "Apress",
+            "publishedDate": "2019-03-19",
+            "description": "Use the enormously popular React framework to build dynamic JavaScript applications that take advantage of the capabilities of modern browsers and devices. You will learn how React brings the power of strong architecture and responsive data to the client, providing the foundation for complex and rich user interfaces. Best-selling author Adam Freeman explains how to get the most from React. He begins by describing the React architecture and the benefits it offers and then shows you how to use React and its associated tools and libraries in your projects, starting from the nuts and bolts and building up to the most advanced and sophisticated features, going in-depth to give you the knowledge you need. Each topic is presented clearly and concisely. Chapters include common problems and how to avoid them. What You’ll Learn Gain a solid understanding of the React design Create rich and dynamic web app clients using React Create data stores using Redux Consume data using REST and GraphQLTest your React projects Who This Book Is For JavaScript developers who want to use React to create dynamic client-side applications",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781484244517"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1484244516"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 745,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=SM2NDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=SM2NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=SM2NDwAAQBAJ&pg=PR1&dq=react&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=SM2NDwAAQBAJ&dq=react&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Pro_React_16.html?hl=&id=SM2NDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Pro_React_16-sample-epub.acsm?id=SM2NDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Pro_React_16-sample-pdf.acsm?id=SM2NDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=SM2NDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "What You’ll Learn Gain a solid understanding of the React design Create rich and dynamic web app clients using React Create data stores using Redux Consume data using REST and GraphQLTest your React projects Who This Book Is For ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "OswftAEACAAJ",
+        "etag": "Cw25zJaFPU0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/OswftAEACAAJ",
+        "volumeInfo": {
+            "title": "React. Js Book",
+            "subtitle": "Learning React JavaScript Library from Scratch",
+            "authors": ["Greg Sidelnikov"],
+            "publishedDate": "2017-03-17",
+            "description": "My fourth web development book is simply called React.js Book. It will walk you step by step through the process of setting up a development environment and learning Reactive programming from start to finish. React is a library unlike any other I have worked with. Unlike jQuery where you had to learn a number of methods that do very specific things, it's largely inspired by a programming methodology for creating fast web applications.In addition you will be expected to know or at least be briefly familiar with prerequisite knowledge of other web development tools such as Node.js, NPM, Babel, JSX and WebPack. These are not required elements of programming with React, but without them things would be tough.As of 2017, Reactive programming is an alternative way of thinking about web applications. It provides software patterns that make your web app extremely responsive to user input and generally feel faster to the end-user (people who are using your application.) The Virtual DOM alone is enough of a reason to switch to React. Programming with React library, is a lot more than just learning about and using React objects, components, states, props and methods. It requires previous experience with JavaScript and at times assumes knowledge of software principles not inherent to React library itself.This book is not a list of object names, methods and functions with side explanations of what they do. Rather, it deals with the said principles involved in React programming thought up by the creators of React library. Principles that are usually understood by professional web developers and software engineers.For all these reasons stated above, this book will gradually walk you through the process of becoming familiar with React library, starting from basic concepts. Gradually, we will move toward more advanced subjects. So, prepare to be educated",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1521546185"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781521546185"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 117,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=OswftAEACAAJ&dq=react&hl=&cd=7&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=OswftAEACAAJ&dq=react&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/React_Js_Book.html?hl=&id=OswftAEACAAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=OswftAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "These are not required elements of programming with React, but without them things would be tough.As of 2017, Reactive programming is an alternative way of thinking about web applications."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "a_asDAAAQBAJ",
+        "etag": "7nZWJOQ6+dM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/a_asDAAAQBAJ",
+        "volumeInfo": {
+            "title": "React: Up & Running",
+            "subtitle": "Building Web Applications",
+            "authors": ["Stoyan Stefanov"],
+            "publisher": "\"O'Reilly Media, Inc.\"",
+            "publishedDate": "2016-07-14",
+            "description": "Hit the ground running with React, the open-source technology from Facebook for building rich web applications fast. With this practical guide, Yahoo! web developer Stoyan Stefanov teaches you how to build components—React’s basic building blocks—and organize them into maintainable, large-scale apps. If you’re familiar with basic JavaScript syntax, you’re ready to get started. Once you understand how React works, you’ll build a complete custom Whinepad app that helps users rate wines and keep notes. You’ll quickly learn why some developers consider React the key to the web app development puzzle. Set up React and write your first \"Hello world\" web app Create and use custom React components alongside generic DOM components Build a data table component that lets you edit, sort, search, and export its contents Use the JSX syntax extension as an alternative to function calls Set up a lean, low-level build process that helps you focus on React Build a complete custom app that lets you store data on the client Use ESLint, Flow, and Jest tools to check and test your code as your app evolves Manage communication between components with Flux",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781491931776"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1491931779"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 222,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.2.4.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=a_asDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=a_asDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=a_asDAAAQBAJ&pg=PP1&dq=react&hl=&cd=8&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=a_asDAAAQBAJ&dq=react&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/React_Up_Running.html?hl=&id=a_asDAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=a_asDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "With this practical guide, Yahoo! web developer Stoyan Stefanov teaches you how to build components—React’s basic building blocks—and organize them into maintainable, large-scale apps."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "viIvEAAAQBAJ",
+        "etag": "7szAxIXjQGs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/viIvEAAAQBAJ",
+        "volumeInfo": {
+            "title": "React 17 Design Patterns and Best Practices",
+            "subtitle": "Design, build, and deploy production-ready web applications using industry-standard practices, 3rd Edition",
+            "authors": ["Carlos Santana Roldan"],
+            "publisher": "Packt Publishing Ltd",
+            "publishedDate": "2021-05-17",
+            "description": "React is an open-source JavaScript library that is used for building user interfaces or UI components. This React book is designed to take you through the most valuable design patterns in React, helping you learn how to apply design patterns and best practices in real-world scenarios.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781800561762"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1800561768"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 394,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=viIvEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=viIvEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=viIvEAAAQBAJ&pg=PP1&dq=react&hl=&cd=9&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=viIvEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=viIvEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 33.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 21.09,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=viIvEAAAQBAJ&rdid=book-viIvEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 33990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 21090000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=viIvEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Build scalable, maintainable, and powerful React web apps with design patterns and insightful best practices Key FeaturesMake the most of design patterns in React – including render props and controlled and uncontrolled inputsMaster React ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "NZCKCgAAQBAJ",
+        "etag": "7v3mnzvkIC4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/NZCKCgAAQBAJ",
+        "volumeInfo": {
+            "title": "Introduction to React",
+            "authors": ["Cory Gackenheimer"],
+            "publisher": "Apress",
+            "publishedDate": "2015-09-11",
+            "description": "Introduction to React teaches you React, the JavaScript framework created by developers at Facebook, to solve the problem of building complex user interfaces in a consistent and maintainable way. React.js shrugs away common front-end conventions in an effort to make things more efficient - use Introduction to React to learn about this framework and more today. Get to know the React API and it’s specific JavaScript extension, JSX, which makes authoring React components easier and maintainable. You will also learn how to test your React applications and about the tools you can use while building. Once you understand these core concepts, you can build applications with React. This will help you cement the ideas and fundamentals of React and prepare you to utilize React in your own use case. What You'll Learn: How to use React to maintain complex user interfaces in an efficient way How to integrate existing user interfaces and move forward with React How to manage application architecture using Flux How to easily utilize JSX, React's JavaScript extension",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781484212455"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1484212452"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 129,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "0.5.4.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=NZCKCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=NZCKCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=NZCKCgAAQBAJ&pg=PR2&dq=react&hl=&cd=10&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=NZCKCgAAQBAJ&dq=react&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Introduction_to_React.html?hl=&id=NZCKCgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Introduction_to_React-sample-epub.acsm?id=NZCKCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com/books/download/Introduction_to_React-sample-pdf.acsm?id=NZCKCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=NZCKCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Introduction to React teaches you React, the JavaScript framework created by developers at Facebook, to solve the problem of building complex user interfaces in a consistent and maintainable way."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "LbnwCQAAQBAJ",
+        "etag": "UB23gf2q+WM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/LbnwCQAAQBAJ",
+        "volumeInfo": {
+            "title": "Playing Harry Potter",
+            "subtitle": "Essays and Interviews on Fandom and Performance",
+            "authors": ["Lisa S. Brenner"],
+            "publisher": "McFarland",
+            "publishedDate": "2015-06-11",
+            "description": "Through classroom activities, wizard rock concerts, and organizations like the Harry Potter Alliance, Harry Potter fans are using creativity to positively impact the world. This collection of essays and interviews examines how playful fandom--from fanfiction to Muggle quidditch, cosplay, role-playing games, and even Harry Potter burlesque--not only reimagines the canon but also challenges consumerism, questions notions of identity, and fosters participatory culture. The contributors explore issues applicable to fan studies and performance studies at large, such as the role of performance, the nature of community, and questions of representation and ownership in the digital age. Presented in three parts, the essays discuss discrepancies between sanctioned versions of Harry Potter and fan creations, the reenactment and reinterpretation of the original narrative in fan performance, and collaborative and participatory performances that break down the boundaries between actors and audiences.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780786496570"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0786496576"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 238,
+            "printType": "BOOK",
+            "categories": ["Literary Criticism"],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=LbnwCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=LbnwCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=LbnwCQAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=LbnwCQAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Playing_Harry_Potter.html?hl=&id=LbnwCQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=LbnwCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This collection of essays and interviews examines how playful fandom--from fanfiction to Muggle quidditch, cosplay, role-playing games, and even Harry Potter burlesque--not only reimagines the canon but also challenges consumerism, ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "kLAoswEACAAJ",
+        "etag": "QZfJZ2alqW0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/kLAoswEACAAJ",
+        "volumeInfo": {
+            "title": "Harry Potter and the Cursed Child",
+            "authors": ["J. K. Rowling", "Jack Thorne", "John Tiffany"],
+            "publisher": "Sphere",
+            "publishedDate": "2017-07-25",
+            "description": "The official playscript of the original West End production of Harry Potter and the Cursed Child. It was always difficult being Harry Potter and it isn't much easier now that he is an overworked employee of the Ministry of Magic, a husband, and father of three school-age children. While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places. The playscript for Harry Potter and the Cursed Child was originally released as a 'special rehearsal edition' alongside the opening of Jack Thorne's play in London's West End in summer 2016. Based on an original story by J.K. Rowling, John Tiffany and Jack Thorne, the play opened to rapturous reviews from theatregoers and critics alike, while the official playscript became an immediate global bestseller. This revised paperback edition updates the 'special rehearsal edition' with the conclusive and final dialogue from the play, which has subtly changed since its rehearsals, as well as a conversation piece between director John Tiffany and writer Jack Thorne, who share stories and insights about reading playscripts. This edition also includes useful background information including the Potter family tree and a timeline of events from the wizarding world prior to the beginning of Harry Potter and the Cursed Child.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0751565369"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780751565362"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 352,
+            "printType": "BOOK",
+            "categories": ["Fiction"],
+            "averageRating": 2.5,
+            "ratingsCount": 5,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=kLAoswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=kLAoswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=kLAoswEACAAJ&dq=harry+potter&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=kLAoswEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Cursed_Child.html?hl=&id=kLAoswEACAAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=kLAoswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This edition includes the final dialogue and stage directions of the original, two-part play, a conversation piece between director John Tiffany and playwright Jack Thorne, the Potter family tree, and a timeline of key events in the ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "lMM4jgEACAAJ",
+        "etag": "FQDX3Qa0pVc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/lMM4jgEACAAJ",
+        "volumeInfo": {
+            "title": "Harry Potter Coloring Book",
+            "authors": ["Inc. Scholastic"],
+            "publisher": "Scholastic Incorporated",
+            "publishedDate": "2015-11-10",
+            "description": "Packed with stunning pieces of artwork from the Warner Bros. archive, this deluxe coloring book gives fans the chance to color in the vivid settings and beloved characters of J.K. Rowling's wizarding world. Containing intricate line drawings used in the making of the Harry Potter films, this coloring book includes fan-favorite scenes, creatures, and characters: from Dobby and baby Norbert to Quidditch games and the unforgettable final battle between Harry and Lord Voldemort. Unique and interactive, Harry Potter: The Official Coloring Book is a perfect collector's item for all fans of the blockbuster saga--whether it's for those who grew up with Harry, Ron, and Hermione, or those who are discovering the magic for the very first time.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1338029991"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781338029994"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 96,
+            "printType": "BOOK",
+            "categories": ["Juvenile Fiction"],
+            "averageRating": 3,
+            "ratingsCount": 2,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=lMM4jgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=lMM4jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=lMM4jgEACAAJ&dq=harry+potter&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=lMM4jgEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_Coloring_Book.html?hl=&id=lMM4jgEACAAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=lMM4jgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Filled with intricate illustrations and elaborate designs used in the making of the Harry Potter films, this book invites you to imbue the wizarding world with color in your own explorations of Hogwarts Castle, the Forbidden Forest, and ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "L18VBQAAQBAJ",
+        "etag": "3nJvON4c8bA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/L18VBQAAQBAJ",
+        "volumeInfo": {
+            "title": "The Psychology of Harry Potter",
+            "subtitle": "An Unauthorized Examination Of The Boy Who Lived",
+            "authors": ["Neil Mulholland"],
+            "publisher": "BenBella Books",
+            "publishedDate": "2007-04-10",
+            "description": "Harry Potter has provided a portal to the wizarding world for millions of readers, but an examination of Harry, his friends and his enemies will take us on yet another journey: through the psyche of the Muggle (and wizard!) mind. The twists and turns of the series, as well as the psychological depth and complexity of J. K. Rowling’s characters, have kept fans enthralled with and puzzling over the many mysteries that permeate Hogwarts and beyond: • Do the Harry Potter books encourage disobedience? • Why is everyone so fascinated by Professor Lupin? • What exactly will Harry and his friends do when they finally pass those N.E.W.T.s? • Do even wizards live by the ticking of the clock? • Is Harry destined to end up alone? And why did it take Ron and Hermione so long to get together? Now, in The Psychology of Harry Potter, leading psychologists delve into the ultimate Chamber of Secrets, analyzing human mind and motivation by examining the themes and characters that make the Harry Potter books the bestselling fantasy series of all time. Grab a spot on the nearest couch, and settle in for some fresh revelations about our favorite young wizard!",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781932100884"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1932100881"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 326,
+            "printType": "BOOK",
+            "categories": ["Literary Criticism"],
+            "averageRating": 3.5,
+            "ratingsCount": 5,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=L18VBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=L18VBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=L18VBQAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=4&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=L18VBQAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Psychology_of_Harry_Potter.html?hl=&id=L18VBQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=L18VBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Now, in The Psychology of Harry Potter, leading psychologists delve into the ultimate Chamber of Secrets, analyzing human mind and motivation by examining the themes and characters that make the Harry Potter books the bestselling fantasy ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "eq9XvgAACAAJ",
+        "etag": "H7qShooSELk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/eq9XvgAACAAJ",
+        "volumeInfo": {
+            "title": "Fantastic Beasts and Where to Find Them: Cinematic Guide: Newt Scamander Do Not Feed Out",
+            "authors": ["Felicity Baker"],
+            "publishedDate": "2017-02-02",
+            "description": "The essential film companion for Newt Scamander! Relive the magic of Newt's world with this hardback guidebook featuring your favourite scenes and quotes from Fantastic Beasts and Where to Find Them.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1407179403"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781407179407"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 64,
+            "printType": "BOOK",
+            "averageRating": 3,
+            "ratingsCount": 2,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=eq9XvgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=eq9XvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=eq9XvgAACAAJ&dq=harry+potter&hl=&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=eq9XvgAACAAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Fantastic_Beasts_and_Where_to_Find_Them.html?hl=&id=eq9XvgAACAAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=eq9XvgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Relive all the magic of Newt&#39;s world with this hardback guidebook featuring all you need to know about Newt from the movie."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "_S-joAEACAAJ",
+        "etag": "6ueX33cODBM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/_S-joAEACAAJ",
+        "volumeInfo": {
+            "title": "Harry Potter: The Creature Vault",
+            "subtitle": "The Creatures and Plants of the Harry Potter Films",
+            "authors": ["Jody Revenson"],
+            "publisher": "Harper Design",
+            "publishedDate": "2014-10-28",
+            "description": "Dementors and House-elves, merpeople and Chinese Fireball Dragons—these are just a few of the magical creatures and frightening monsters populating J. K. Rowling's wizarding world. Harry Potter: The Creature Vault is a fascinating look at how this menagerie was brought to life for the blockbuster Harry Potter film series. Detailed profiles of each creature include rare concept illustrations, behind-the-scenes photography, and filmmaking secrets from the Warner Bros. archive. A removable poster picturing each of the creatures and an interactive Eeylops Owl Emporium catalog complete this must-have package.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0062374230"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780062374233"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 208,
+            "printType": "BOOK",
+            "categories": ["Performing Arts"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=_S-joAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=_S-joAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=_S-joAEACAAJ&dq=harry+potter&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=_S-joAEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_The_Creature_Vault.html?hl=&id=_S-joAEACAAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=_S-joAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Harry Potter: The Creature Vault is a fascinating look at how this menagerie was brought to life for the blockbuster Harry Potter film series."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "JHEkAQAAMAAJ",
+        "etag": "T+VzHsKGceA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/JHEkAQAAMAAJ",
+        "volumeInfo": {
+            "title": "Harry Potter and the Deathly Hallows",
+            "authors": ["J. K. Rowling"],
+            "publisher": "Arthur a Levine",
+            "publishedDate": "2007",
+            "description": "The seventh and final book of the blockbuster Harry Potter series follows the wizard's last year at Hogwarts School of Witchcraft and Wizardry. 12,000,000 first printing.",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39076002651854"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 870,
+            "printType": "BOOK",
+            "categories": ["Juvenile Fiction"],
+            "averageRating": 4.5,
+            "ratingsCount": 3450,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=JHEkAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=JHEkAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=JHEkAQAAMAAJ&q=harry+potter&dq=harry+potter&hl=&cd=7&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=JHEkAQAAMAAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Deathly_Hallows.html?hl=&id=JHEkAQAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=JHEkAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "The seventh and final book of the blockbuster Harry Potter series follows the wizard&#39;s last year at Hogwarts School of Witchcraft and Wizardry. 12,000,000 first printing."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Wy-Kxu3A7x8C",
+        "etag": "E2zJ96calkg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Wy-Kxu3A7x8C",
+        "volumeInfo": {
+            "title": "Teaching with Harry Potter",
+            "subtitle": "Essays on Classroom Wizardry from Elementary School to College",
+            "authors": ["Valerie Estelle Frankel"],
+            "publisher": "McFarland",
+            "publishedDate": "2013-02-21",
+            "description": "The Harry Potter phenomenon created a surge in reading with a lasting effect on all areas of culture, especially education. Today, teachers across the world are harnessing the power of the series to teach history, gender studies, chemistry, religion, philosophy, sociology, architecture, Latin, medieval studies, astronomy, SAT skills, and much more. These essays discuss the diverse educational possibilities of J.K. Rowling's books. Teachers of younger students use Harry and Hermione to encourage kids with disabilities or show girls the power of being brainy scientists. Students are reading fanfiction, splicing video clips, or exploring Rowling's new website, Pottermore. Harry Potter continues to open new doors to learning.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780786472017"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0786472014"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 288,
+            "printType": "BOOK",
+            "categories": ["Literary Criticism"],
+            "averageRating": 4,
+            "ratingsCount": 13,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Wy-Kxu3A7x8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Wy-Kxu3A7x8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=Wy-Kxu3A7x8C&printsec=frontcover&dq=harry+potter&hl=&cd=8&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=Wy-Kxu3A7x8C&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Teaching_with_Harry_Potter.html?hl=&id=Wy-Kxu3A7x8C"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Wy-Kxu3A7x8C&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "These essays discuss the diverse educational possibilities of J.K. Rowling&#39;s books. Teachers of younger students use Harry and Hermione to encourage kids with disabilities or show girls the power of being brainy scientists."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "HksgDQAAQBAJ",
+        "etag": "cMtEg5QOl7s",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/HksgDQAAQBAJ",
+        "volumeInfo": {
+            "title": "Harry Potter and the Philosopher's Stone",
+            "authors": ["J. K. Rowling"],
+            "publisher": "Bloomsbury Publishing",
+            "publishedDate": "2014-01-09",
+            "description": "Celebrate 20 years of Harry Potter magic! Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!These new editions of the classic and internationally bestselling, multi-award-winning series feature instantly pick-up-able new jackets by Jonny Duddle, with huge child appeal, to bring Harry Potter to the next generation of readers. It's time to PASS THE MAGIC ON ...",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781408855898"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1408855895"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 352,
+            "printType": "BOOK",
+            "categories": ["Juvenile Fiction"],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.2.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=HksgDQAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=HksgDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=HksgDQAAQBAJ&dq=harry+potter&hl=&cd=9&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=HksgDQAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Philosopher_s_Stone.html?hl=&id=HksgDQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=HksgDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "An incredible adventure is about to begin!These new editions of the classic and internationally bestselling, multi-award-winning series feature instantly pick-up-able new jackets by Jonny Duddle, with huge child appeal, to bring Harry ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "968eEAAAQBAJ",
+        "etag": "VLSFOD7kMTI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/968eEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Harry Potter: The Wand Collection (Book)",
+            "authors": ["Monique Peterson"],
+            "publisher": "Insight Editions",
+            "publishedDate": "2017-11-14",
+            "description": "Discover the wands of your favorite Harry Potter characters. In the Harry Potter films, each wand is as unique as the witch or wizard who wields it. From Hermione Granger’s elegant, vine-wrapped wand to the bone-inlaid wands of the Death Eaters, each was designed and crafted by the filmmakers to reflect its owner’s identity. Harry Potter: The Wand Collection is a visual guide to these magical wands, their makers, and the characters who mastered them. Profiles of each wand feature stunning new photography of the original props, wand statistics, insights from the cast and crew, and other filmmaking secrets from the Warner Bros. archive. This collectible volume is an ideal resource for both wand-wielding veteran fans seeking to learn the history behind these beloved items and a new generation just beginning their journey into the wizarding world.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781683831884"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1683831888"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 154,
+            "printType": "BOOK",
+            "categories": ["Performing Arts"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=968eEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=968eEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=968eEAAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=10&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=968eEAAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_The_Wand_Collection_Book.html?hl=&id=968eEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=968eEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This collectible volume is an ideal resource for both wand-wielding veteran fans seeking to learn the history behind these beloved items and a new generation just beginning their journey into the wizarding world."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "_uTRAwAAQBAJ",
+        "etag": "l+IzmRIaHDE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/_uTRAwAAQBAJ",
+        "volumeInfo": {
+            "title": "JavaScript and JQuery",
+            "subtitle": "Interactive Front-End Web Development Hardcover",
+            "authors": ["Jon Duckett"],
+            "publisher": "John Wiley & Sons",
+            "publishedDate": "2014-07-21",
+            "description": "This book covers: 1. Basic programming concepts - assuming no prior knowledge of programming beyond an ability to create a web page using HTML & CSS ; 2. Core elements of the JavaScript language - so you can learn how to write your own scripts from scratch ; 3. jQuery - which will allow you to simplify the process of writing scripts (this is introduced half-way through the book once you have a solid understanding of JavaScript) ; 4. How to recreate techniques you will have seen on other web sites such as sliders, content filters, form validation, updating content using Ajax, and more. Each chapter: Breaks subjects down into bite-sized chunks with a new topic on each page ; Contains clear descriptions of syntax, each one demonstrated with inspiring code samples ; Uses diagrams and photography to explain complex concepts in a visual way. This book enables you to use & customize thousands of scripts, JavaScript APIs, and jQuery plugins that are freely available on the web as well as create your own scripts from scratch.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781118871652"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1118871650"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 640,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.0.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=_uTRAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=_uTRAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=_uTRAwAAQBAJ&pg=PP1&dq=javascript&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=_uTRAwAAQBAJ&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript_and_JQuery.html?hl=&id=_uTRAwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=_uTRAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Duckett speaks directly to readers, making this an invaluable resource. This book is also available as a set, Web Design with HTML, CSS, JavaScript and jQuery Set 978119038634 along with HTML and CSS Design and Build Websites 9781118871645."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Nz9iAwAAQBAJ",
+        "etag": "MZOe/ZCZkBk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Nz9iAwAAQBAJ",
+        "volumeInfo": {
+            "title": "Effective JavaScript",
+            "subtitle": "68 Specific Ways to Harness the Power of JavaScript",
+            "authors": ["David Herman"],
+            "publisher": "Pearson Education",
+            "publishedDate": "2013",
+            "description": "Provides information on how to write better JavaScript programs, covering such topics as functions, arrays, library and API design, and concurrency.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780321812186"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0321812182"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 206,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.0.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Nz9iAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Nz9iAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=Nz9iAwAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=Nz9iAwAAQBAJ&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Effective_JavaScript.html?hl=&id=Nz9iAwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Nz9iAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Provides information on how to write better JavaScript programs, covering such topics as functions, arrays, library and API design, and concurrency."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "71nDBQAAQBAJ",
+        "etag": "LMYngCEHeE8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/71nDBQAAQBAJ",
+        "volumeInfo": {
+            "title": "JavaScript for Kids",
+            "subtitle": "A Playful Introduction to Programming",
+            "authors": ["Nick Morgan"],
+            "publisher": "No Starch Press",
+            "publishedDate": "2014-12-14",
+            "description": "JavaScript is the programming language of the Internet, the secret sauce that makes the Web awesome, your favorite sites interactive, and online games fun! JavaScript for Kids is a lighthearted introduction that teaches programming essentials through patient, step-by-step examples paired with funny illustrations. You’ll begin with the basics, like working with strings, arrays, and loops, and then move on to more advanced topics, like building interactivity with jQuery and drawing graphics with Canvas. Along the way, you’ll write games such as Find the Buried Treasure, Hangman, and Snake. You’ll also learn how to: –Create functions to organize and reuse your code –Write and modify HTML to create dynamic web pages –Use the DOM and jQuery to make your web pages react to user input –Use the Canvas element to draw and animate graphics –Program real user-controlled games with collision detection and score keeping With visual examples like bouncing balls, animated bees, and racing cars, you can really see what you’re programming. Each chapter builds on the last, and programming challenges at the end of each chapter will stretch your brain and inspire your own amazing programs. Make something cool with JavaScript today! Ages 10+ (and their parents!)",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781593274085"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1593274084"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 336,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "averageRating": 4.5,
+            "ratingsCount": 2,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.2.2.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=71nDBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=71nDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=71nDBQAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=71nDBQAAQBAJ&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript_for_Kids.html?hl=&id=71nDBQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=71nDBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "JavaScript for Kids is a lighthearted introduction that teaches programming essentials through patient, step-by-step examples paired with funny illustrations."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "p1v6DwAAQBAJ",
+        "etag": "Cgh3NoSUnb4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/p1v6DwAAQBAJ",
+        "volumeInfo": {
+            "title": "Eloquent JavaScript, 3rd Edition",
+            "subtitle": "A Modern Introduction to Programming",
+            "authors": ["Marijn Haverbeke"],
+            "publisher": "No Starch Press",
+            "publishedDate": "2018-12-04",
+            "description": "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications. JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications. This much anticipated and thoroughly revised third edition of Eloquent JavaScript dives deep into the JavaScript language to show you how to write beautiful, effective code. It has been updated to reflect the current state of Java¬Script and web browsers and includes brand-new material on features like class notation, arrow functions, iterators, async functions, template strings, and block scope. A host of new exercises have also been added to test your skills and keep you on track. As with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs. You start by learning the basic structure of the JavaScript language as well as control structures, functions, and data structures to help you write basic programs. Then you'll learn about error handling and bug fixing, modularity, and asynchronous programming before moving on to web browsers and how JavaScript is used to program them. As you build projects such as an artificial life simulation, a simple programming language, and a paint program, you'll learn how to: - Understand the essential elements of programming, including syntax, control, and data - Organize and clarify your code with object-oriented and functional programming techniques - Script the browser and make basic web applications - Use the DOM effectively to interact with browsers - Harness Node.js to build servers and utilities Isn't it time you became fluent in the language of the Web? * All source code is available online in an inter¬active sandbox, where you can edit the code, run it, and see its output instantly.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781593279509"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1593279507"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 472,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "averageRating": 3.5,
+            "ratingsCount": 2,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=p1v6DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=p1v6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=p1v6DwAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=4&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=p1v6DwAAQBAJ&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Eloquent_JavaScript_3rd_Edition.html?hl=&id=p1v6DwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=p1v6DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "As with previous editions, Haverbeke continues to teach through extensive examples and immerses you in code from the start, while exercises and full-chapter projects give you hands-on experience with writing your own programs."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "nfiRBgAAQBAJ",
+        "etag": "S1K8IjAX38A",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/nfiRBgAAQBAJ",
+        "volumeInfo": {
+            "title": "Beginning JavaScript",
+            "authors": ["Jeremy McPeak"],
+            "publisher": "John Wiley & Sons",
+            "publishedDate": "2015-03-09",
+            "description": "The bestselling JavaScript guide, updated with current features and best practices Beginning JavaScript 5th Edition shows you how to work effectively with JavaScript frameworks, functions, and modern browsers, and teaches more effective coding practices using HTML5. This new edition has been extensively updated to reflect the way JavaScript is most commonly used today, introducing you to the latest tools and techniques available to JavaScript developers. Coverage includes modern coding practices using HTML5 markup, the JSON data format, DOM APIs, the jQuery framework, and more. Exercises with solutions provide plenty of opportunity to practice, and the companion website offers downloadable code for all examples given in the book. Learn JavaScript using the most up to date coding style Understand JSON, functions, events, and feature detection Utilize the new HTML5 elements and the related API Explore new features including geolocation, local storage, and more JavaScript has shaped the Web from a passive medium into one that is rich, dynamic, and interactive. No matter the technology on the server side, it's JavaScript that makes it come alive in the browser. To learn JavaScript the way it's used today, Beginning JavaScript, 5th Edition is your concise guide.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781118903339"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1118903331"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 768,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.14.1.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=nfiRBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=nfiRBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=nfiRBgAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=nfiRBgAAQBAJ&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Beginning_JavaScript.html?hl=&id=nfiRBgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=nfiRBgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "The bestselling JavaScript guide, updated with current features and best practices Beginning JavaScript 5th Edition shows you how to work effectively with JavaScript frameworks, functions, and modern browsers, and teaches more effective ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "3GOuDwAAQBAJ",
+        "etag": "32QtcKE7Qhc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/3GOuDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Professional JavaScript for Web Developers",
+            "authors": ["Matt Frisbie"],
+            "publisher": "John Wiley & Sons",
+            "publishedDate": "2019-10-15",
+            "description": "Update your skill set for ES 6 and 7 with the ultimate JavaScript guide for pros Professional JavaScript for Web Developers is the essential guide to next-level JavaScript development. Written for intermediate-to-advanced programmers, this book jumps right into the technical details to help you clean up your code and become a more sophisticated JavaScript developer. From JavaScript-specific object-oriented programming and inheritance, to combining JavaScript with HTML and other markup languages, expert instruction walks you through the fundamentals and beyond. This new fourth edition has been updated to cover ECMAScript 6 and 7 (also known as ES2015 and ES2016) and the major re-imagination and departure from ES 5.1; new frameworks and libraries, new techniques, new testing tools, and more are explained in detail for the professional developer, with a practical focus that helps you put your new skills to work on real-world projects. The latest—and most dramatic—ES release is already being incorporated into JavaScript engines in major browsers; this, coupled with the rise in mobile web traffic increasing demand for responsive, dynamic web design, means that all web developers need to update their skills—and this book is your ideal resource for quick, relevant guidance. Get up to date with ECMAScript 6 and 7, new frameworks, and new libraries Delve into web animation, emerging APIs, and build systems Test more effectively with mocks, unit tests, functional tests, and other tools Plan your builds for future ES releases Even if you think you know JavaScript, new ES releases bring big changes that will affect the way you work. For a professional-level update that doesn't waste time on coding fundamentals, Professional JavaScript for Web Developers is the ultimate resource to bring you up to speed.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781119366447"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1119366445"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 1200,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.7.0.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=3GOuDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=3GOuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=3GOuDwAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=3GOuDwAAQBAJ&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Professional_JavaScript_for_Web_Develope.html?hl=&id=3GOuDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=3GOuDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Written for intermediate-to-advanced programmers, this book jumps right into the technical details to help you clean up your code and become a more sophisticated JavaScript developer."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "-i3rDwAAQBAJ",
+        "etag": "onB73LBxXQQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/-i3rDwAAQBAJ",
+        "volumeInfo": {
+            "title": "JavaScript",
+            "subtitle": "The New Toys",
+            "authors": ["T. J. Crowder"],
+            "publisher": "John Wiley & Sons",
+            "publishedDate": "2020-07-28",
+            "description": "All of JavaScript's newest features, in depth, made easy to understand. JavaScript is a rapidly changing language and it can be challenging to keep up with all the new toys being added. JavaScript: The New Toys explores the newest features of the world's most popular programming language while also showing readers how to track what's coming next. After setting the stage by covering who manages the process of improving JavaScript, how new features get introduced, terminology, and a high-level overview of new features, it details each new or updated item in depth, with example uses, possible pitfalls, and expert recommendations for updating old habits in light of new features. JavaScript: The New Toys: Covers all the additions to JavaScript in ES2015-ES2019 plus a preview of ES2020 (and beyond) Explores the latest syntax: nullish coalescing, optional chaining, let and const, class syntax, private methods, private fields, new.target, numeric separators, BigInt, destructuring, default parameters, arrow functions, async functions, await, generator functions, ... (rest and spread), template literals, binary and octal literals, ** (exponentiation), computed property/method names, for-of, for-await-of, shorthand properties, and others Details the new features and patterns including modules, promises, iteration, generators, Symbol, Proxy, reflection, typed arrays, Atomics, shared memory, WeakMap, WeakSet, and more Highlights common pitfalls and explains how to avoid them Shows how to follow the improvements process and even participate in the process yourself Explains how to use new features even before they're widely supported With its comprehensive coverage and friendly, accessible style, JavaScript: The New Toys provides an invaluable resource for programmers everywhere, whether they work in web development, Node.js, Electron, Windows Universal Apps, or another JavaScript environment.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781119367956"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1119367956"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 260,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.2.0.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=-i3rDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=-i3rDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=-i3rDwAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=7&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=-i3rDwAAQBAJ&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript.html?hl=&id=-i3rDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=-i3rDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This book explores the newest features of the world&#39;s most popular programming language while also showing readers how to track what&#39;s coming next."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "qU3rAgAAQBAJ",
+        "etag": "isN2ssXcLCM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/qU3rAgAAQBAJ",
+        "volumeInfo": {
+            "title": "Speaking JavaScript",
+            "subtitle": "An In-Depth Guide for Programmers",
+            "authors": ["Axel Rauschmayer"],
+            "publisher": "\"O'Reilly Media, Inc.\"",
+            "publishedDate": "2014-02-25",
+            "description": "Like it or not, JavaScript is everywhere these days—from browser to server to mobile—and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position. Speaking JavaScript helps you approach the language with four standalone sections. First, a quick-start guide teaches you just enough of the language to help you be productive right away. More experienced JavaScript programmers will find a complete and easy-to-read reference that covers each language feature in depth. Complete contents include: JavaScript quick start: Familiar with object-oriented programming? This part helps you learn JavaScript quickly and properly. JavaScript in depth: Learn details of ECMAScript 5, from syntax, variables, functions, and object-oriented programming to regular expressions and JSON with lots of examples. Pick a topic and jump in. Background: Understand JavaScript’s history and its relationship with other programming languages. Tips, tools, and libraries: Survey existing style guides, best practices, advanced techniques, module systems, package managers, build tools, and learning resources.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781449364991"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1449364993"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 460,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.4.5.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=qU3rAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=qU3rAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=qU3rAgAAQBAJ&pg=PP1&dq=javascript&hl=&cd=8&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=qU3rAgAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qU3rAgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 42.99,
+                "currencyCode": "USD"
+            },
+            "retailPrice": {
+                "amount": 42.99,
+                "currencyCode": "USD"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=qU3rAgAAQBAJ&rdid=book-qU3rAgAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 42990000,
+                        "currencyCode": "USD"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 42990000,
+                        "currencyCode": "USD"
+                    },
+                    "giftable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=qU3rAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position. Speaking JavaScript helps you approach the language with four standalone sections."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "o4p6_GSlqMEC",
+        "etag": "rjpwMyD74q4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/o4p6_GSlqMEC",
+        "volumeInfo": {
+            "title": "JavaScript",
+            "authors": ["Kevin Yank", "Cameron Adams"],
+            "publisher": "Apogeo Editore",
+            "publishedDate": "2008",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9788850327577"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "8850327579"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 306,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "averageRating": 5,
+            "ratingsCount": 2,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=o4p6_GSlqMEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=o4p6_GSlqMEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "it",
+            "previewLink": "http://books.google.com/books?id=o4p6_GSlqMEC&printsec=frontcover&dq=javascript&hl=&cd=9&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=o4p6_GSlqMEC&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript.html?hl=&id=o4p6_GSlqMEC"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=o4p6_GSlqMEC&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "IAJv2N1n9JAC",
+        "etag": "hiQLG0TlzLQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/IAJv2N1n9JAC",
+        "volumeInfo": {
+            "title": "JavaScript by Example",
+            "authors": ["Ellie Quigley"],
+            "publisher": "Prentice Hall Professional",
+            "publishedDate": "2004",
+            "description": "This is the definitive JavaScript tutorial for the serious nonprogrammer who is interested in mastering the full power of the language. Includes hundreds of example JavaScript programs that demonstrate both the fun and practical aspects.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0131401629"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780131401624"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 730,
+            "printType": "BOOK",
+            "categories": ["Computers"],
+            "averageRating": 4,
+            "ratingsCount": 4,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.2.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=IAJv2N1n9JAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=IAJv2N1n9JAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com/books?id=IAJv2N1n9JAC&printsec=frontcover&dq=javascript&hl=&cd=10&source=gbs_api",
+            "infoLink": "http://books.google.com/books?id=IAJv2N1n9JAC&dq=javascript&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript_by_Example.html?hl=&id=IAJv2N1n9JAC"
+        },
+        "saleInfo": {
+            "country": "US",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "US",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=IAJv2N1n9JAC&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This is the definitive JavaScript tutorial for the serious nonprogrammer who is interested in mastering the full power of the language. Includes hundreds of example JavaScript programs that demonstrate both the fun and practical aspects."
+        }
+    }
+]

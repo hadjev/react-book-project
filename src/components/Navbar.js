@@ -6,10 +6,10 @@ import React from "react";
 import { links } from "../utils/navLinks";
 import logo from "../assets/logo.png";
 import styled from "styled-components";
-import { useSidebarContext } from "../context/sidebarContext.js";
+import { useBooksContext } from "../context/context.js";
 
 function Navbar() {
-  const { openSidebar } = useSidebarContext();
+  const { openSidebar } = useBooksContext();
 
   return (
     <NavContainer>
