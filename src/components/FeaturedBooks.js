@@ -1,6 +1,5 @@
-import Book from "./Book";
 import Error from "./Error";
-import { Link } from "react-router-dom";
+import FeaturedSingleBook from "./FeaturedSingleBook";
 import React from "react";
 import styled from "styled-components";
 import { useBooksContext } from "../context/context";
@@ -20,7 +19,7 @@ const FeaturedBooks = () => {
       </div>
       <div className="container">
         {featuredBooks.map((book) => {
-          return <Book key={book.id} {...book} />;
+          return <FeaturedSingleBook key={book.id} {...book} />;
         })}
       </div>
     </Wrapper>

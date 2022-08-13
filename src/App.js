@@ -1,4 +1,4 @@
-import { AboutPage, ErrorPage, Home, Products } from "./pages/index";
+import { AboutPage, ErrorPage, Home, SingleBook } from "./pages/index";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import Footer from "./components/Footer.js";
@@ -13,7 +13,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
+        {/* <Route path="/books" element={<Books />} /> */}
+        <Route path="/books/:isbn" element={<SingleBook />} />
         <Route path="/about" element={<AboutPage />} />
 
         <Route path="/*" element={<ErrorPage />} />
