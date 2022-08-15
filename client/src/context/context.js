@@ -16,6 +16,8 @@ const initialState = {
   singleBook: {},
 };
 
+const baseUrl = "http://localhost:3005/api/v1/books";
+
 export const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -30,7 +32,8 @@ export const AppProvider = ({ children }) => {
 
   const fetchBooks = async () => {
     try {
-      const books = await booksData;
+      const response = await axios.get(baseUrl);
+      const books = response.data;
 
       dispatch({ type: "getBooksSuccess", payload: books });
     } catch (error) {
@@ -44,8 +47,7 @@ export const AppProvider = ({ children }) => {
 
     try {
       const response = await axios.get(url);
-
-      const singleBook = await response.data.items[0];
+      const singleBook = await response.data.book[0];
       dispatch({ type: "getSingleBookSuccess", payload: singleBook });
     } catch (error) {
       dispatch({ type: "getSingleBookError" });

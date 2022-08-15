@@ -6,6 +6,7 @@ import { useBooksContext } from "../context/context";
 
 const FeaturedBooks = () => {
   const { booksError: error, featuredBooks } = useBooksContext();
+  console.log(featuredBooks);
 
   if (error) {
     return <Error />;
@@ -27,6 +28,7 @@ const FeaturedBooks = () => {
 };
 
 const Wrapper = styled.section`
+
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +55,10 @@ const Wrapper = styled.section`
   .img {
     margin: 0 0.6em 0 0;
   }
-
+  
+  img {
+    width: 100px;
+  }
   .authorsContainer {
     margin-bottom: 10px;
   }

@@ -19,7 +19,6 @@ function SingleBook() {
 
   useEffect(() => {
     fetchSingleBook(`${url}${isbn}`);
-    console.log(singleBook);
   }, []);
 
   if (loading) {
@@ -30,33 +29,16 @@ function SingleBook() {
     return <Error />;
   }
 
-  console.log(singleBook);
-  // const { title } = singleBook.volumeInfo;
-  // console.log(title);
-
-  // return (
-  //   <>
-  //     <h1>{singleBook.volumeInfo.title}</h1>
-  //   </>
-  // );
-
-  const { volumeInfo, saleInfo, searchInfo } = singleBook;
   const {
     title,
-    subtitle,
     authors,
     publisher,
     publishedDate,
     description,
-    industryIdentifiers,
     pageCount,
-    categories,
-    imageLinks: { thumbnail },
-  } = volumeInfo;
-
-  const {
-    listPrice: { amount },
-  } = saleInfo;
+    imageUrl,
+    price,
+  } = singleBook;
 
   return (
     <Wrapper>
@@ -66,13 +48,13 @@ function SingleBook() {
           back to books
         </Link>
         <div className="book-center">
-          <img src={thumbnail} alt={title} />
+          <img src={imageUrl} alt={title} />
           <section className="content">
             <h2>{title}</h2>
             <p>
-              by <span className="authors">{authors.join(", ")}</span>
+              {/* by <span className="authors">{authors.join(", ")}</span> */}
             </p>
-            <h5 className="price">${amount}</h5>
+            <h5 className="price">${price}</h5>
             <p className="description">{description}</p>
             <p className="info">
               <span>Publisher: {publisher}</span>
@@ -84,7 +66,7 @@ function SingleBook() {
               <span>Pages: {pageCount}</span>
             </p>
             <p className="info">
-              <span>ISBN: {industryIdentifiers[0].identifier}</span>
+              <span>ISBN: {isbn}</span>
             </p>
           </section>
         </div>

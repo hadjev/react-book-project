@@ -9,9 +9,7 @@ const booksReducer = (state, action) => {
 
   if (action.type === "getBooksSuccess") {
     // three random books
-    const featuredBooks = action.payload
-      .filter((book) => book.saleInfo.saleability === "FOR_SALE")
-      .filter((book) => book.volumeInfo.industryIdentifiers)
+    const featuredBooks = action.payload.books
       .sort(() => 0.5 - Math.random())
       .slice(0, 3);
 
