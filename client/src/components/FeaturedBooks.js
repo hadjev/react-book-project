@@ -6,7 +6,6 @@ import { useBooksContext } from "../context/context";
 
 const FeaturedBooks = () => {
   const { booksError: error, featuredBooks } = useBooksContext();
-  console.log(featuredBooks);
 
   if (error) {
     return <Error />;
@@ -20,7 +19,7 @@ const FeaturedBooks = () => {
       </div>
       <div className="container">
         {featuredBooks.map((book) => {
-          return <FeaturedSingleBook key={book.id} {...book} />;
+          return <FeaturedSingleBook key={book._id} {...book} />;
         })}
       </div>
     </Wrapper>
