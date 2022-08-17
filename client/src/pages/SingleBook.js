@@ -7,7 +7,7 @@ import PageHero from '../components/PageHero.js';
 import Stars from '../components/Stars.js';
 import styled from 'styled-components';
 import { singleBookISBNUrl as url } from '../utils/singleBookUrl';
-import { useBooksContext } from '../context/context.js';
+import { useBooksContext } from '../context/booksContext.js';
 
 function SingleBook() {
     const { isbn } = useParams();
