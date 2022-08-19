@@ -40,6 +40,32 @@ const booksReducer = (state, action) => {
         return { ...state, singleBookLoading: false, singleBookError: true };
     }
 
+    if (action.type === 'overlay open') {
+        window.scrollTo(0, 0);
+        return { ...state, isOverlayOpen: true };
+    }
+
+    if (action.type === 'overlay close') {
+        window.scrollTo(0, 0);
+        return { ...state, isOverlayOpen: false };
+    }
+
+    if (action.type === 'editSingleBook') {
+        // const updatedBook = state.books.find(
+        //     (book) => book.isbn === action.payload.isbn
+        // );
+        // console.log(updatedBook);
+
+        const updatedBooks = state.books.map((book) => {
+            if (book.isbn === action.payload.isbn) {
+                return action.payload.book;
+            }
+            return book;
+        });
+
+        return { ...state, books: updatedBooks };
+    }
+
     if (action.type === 'deleteSingleBook') {
         state.books = state.books.filter(
             (book) => book.isbn !== action.payload

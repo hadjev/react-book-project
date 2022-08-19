@@ -1,6 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
+import EditSingleBook from '../components/crud/EditSingleBook';
 import Error from '../components/Error.js';
 import Loading from '../components/Loading.js';
 import PageHero from '../components/PageHero.js';
@@ -10,16 +11,30 @@ import { singleBookISBNUrl as url } from '../utils/singleBookUrl';
 import { useBooksContext } from '../context/booksContext.js';
 
 function SingleBook() {
-    const navigate = useNavigate();
-
-    const { isbn } = useParams();
     const {
         singleBookLoading: loading,
         singleBookError: error,
         singleBook,
         fetchSingleBook,
+        isOverlayOpen,
+        openOverlay,
+        closeOverlay,
+        editSingleBook,
         deleteSingleBook,
     } = useBooksContext();
+
+    const navigate = useNavigate();
+    const { isbn } = useParams();
+
+    // const onEditHandler = () => {
+    //     window.scrollTo(0, 0);
+    //     setOverlayStatus(true);
+    // };
+
+    // const onCloseHandler = () => {
+    //     window.scrollTo(0, 0);
+    //     setOverlayStatus(false);
+    // };
 
     useEffect(() => {
         fetchSingleBook(`${url}${isbn}`);
@@ -46,17 +61,15 @@ function SingleBook() {
         reviews,
     } = singleBook;
 
-    const deleteBookHandler = async () => {
-        try {
-            await deleteSingleBook(isbn);
-            navigate(-1);
-        } catch (error) {
-            console.log(error);
-        }
-    };
-
     return (
         <Wrapper>
+            {isOverlayOpen && (
+                <EditSingleBook
+                    book={singleBook}
+                    onClose={closeOverlay}
+                    onBookCreate={editSingleBook}
+                />
+            )}
             <PageHero />
             <div className="section section-center page">
                 <Link to="/books" className="btn">
@@ -92,26 +105,22 @@ function SingleBook() {
                             {isbn}
                         </p>
                         <div className="buttons">
-                            <button className="btn btn-edit">edit book</button>
-                            {/* <button
-                                className="btn btn-delete"
-                                onClick={() => deleteSingleBook(isbn)}
+                            <button
+                                className="btn btn-edit"
+                                onClick={openOverlay}
                             >
-                                delete book
-                            </button> */}
+                                edit book
+                            </button>
+
                             <button
                                 className="btn btn-delete"
-                                onClick={() => deleteBookHandler(isbn)}
+                                onClick={() => {
+                                    deleteSingleBook(isbn);
+                                    navigate(-1);
+                                }}
                             >
                                 delete book
                             </button>
-                            {/* <Link
-                                to="/books"
-                                className="btn btn-delete"
-                                onClick={() => deleteSingleBook(isbn)}
-                            >
-                                delete book
-                            </Link> */}
                         </div>
                     </section>
                 </div>

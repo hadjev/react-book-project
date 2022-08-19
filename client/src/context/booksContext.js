@@ -14,6 +14,7 @@ const initialState = {
     singleBookLoading: false,
     singleBookError: false,
     singleBook: {},
+    isOverlayOpen: false,
 };
 
 const baseUrl = 'http://localhost:3005/api/v1/books';
@@ -22,7 +23,6 @@ export const BookProvider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState);
 
     const openSidebar = () => {
-        console.log('open');
         dispatch({ type: 'sidebar open' });
     };
 
@@ -53,14 +53,41 @@ export const BookProvider = ({ children }) => {
             dispatch({ type: 'getSingleBookError' });
         }
     };
-    const editSingleBook = async (isbn) => {};
+
+    const openOverlay = () => {
+        dispatch({ type: 'overlay open' });
+    };
+
+    const closeOverlay = () => {
+        dispatch({ type: 'overlay close' });
+    };
+
+    const editSingleBook = async (e, isbn) => {
+        e.preventDefault();
+
+        const formData = new FormData(e.target);
+
+        // Transform data to proper format
+        const book = Object.fromEntries(formData);
+        book.authors = book.authors.split(', ');
+        book.pageCount = Number(book.pageCount);
+        book.price = Number(book.price);
+        book.reviews = Number(book.reviews);
+        book.stars = Number(book.stars);
+
+        try {
+            // await axios.put(`${baseUrl}/${isbn}`, book);
+            dispatch({ type: 'editSingleBook', payload: { isbn, book } });
+            console.log('form submit');
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
     const deleteSingleBook = async (isbn) => {
         try {
-            // await axios.delete(`${baseUrl}/${isbn}`);
+            await axios.delete(`${baseUrl}/${isbn}`);
             dispatch({ type: 'deleteSingleBook', payload: isbn });
-            // await fetchBooks();
-            // window.scrollTo(0, 0);
             console.log('book deleted');
         } catch (error) {
             console.log(error);
@@ -78,7 +105,10 @@ export const BookProvider = ({ children }) => {
                 openSidebar,
                 closeSidebar,
                 fetchSingleBook,
+                editSingleBook,
                 deleteSingleBook,
+                openOverlay,
+                closeOverlay,
             }}
         >
             {children}
