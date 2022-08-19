@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import React, { useEffect } from 'react';
 
 import Error from '../components/Error.js';
@@ -10,12 +10,15 @@ import { singleBookISBNUrl as url } from '../utils/singleBookUrl';
 import { useBooksContext } from '../context/booksContext.js';
 
 function SingleBook() {
+    const navigate = useNavigate();
+
     const { isbn } = useParams();
     const {
         singleBookLoading: loading,
         singleBookError: error,
         singleBook,
         fetchSingleBook,
+        deleteSingleBook,
     } = useBooksContext();
 
     useEffect(() => {
@@ -42,6 +45,15 @@ function SingleBook() {
         stars,
         reviews,
     } = singleBook;
+
+    const deleteBookHandler = async () => {
+        try {
+            await deleteSingleBook(isbn);
+            navigate(-1);
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
     return (
         <Wrapper>
@@ -79,6 +91,28 @@ function SingleBook() {
                             <span>ISBN: </span>
                             {isbn}
                         </p>
+                        <div className="buttons">
+                            <button className="btn btn-edit">edit book</button>
+                            {/* <button
+                                className="btn btn-delete"
+                                onClick={() => deleteSingleBook(isbn)}
+                            >
+                                delete book
+                            </button> */}
+                            <button
+                                className="btn btn-delete"
+                                onClick={() => deleteBookHandler(isbn)}
+                            >
+                                delete book
+                            </button>
+                            {/* <Link
+                                to="/books"
+                                className="btn btn-delete"
+                                onClick={() => deleteSingleBook(isbn)}
+                            >
+                                delete book
+                            </Link> */}
+                        </div>
                     </section>
                 </div>
             </div>
@@ -92,6 +126,7 @@ const Wrapper = styled.main`
         gap: 4rem;
         margin-top: 2rem;
     }
+
     .price {
         color: var(--clr-primary-5);
     }
@@ -117,7 +152,22 @@ const Wrapper = styled.main`
     }
 
     img {
-        width: 500px;
+        width: 400px;
+        align-self: start;
+        /* justify-self: center; */
+    }
+
+    .content {
+        display: grid;
+    }
+
+    .buttons {
+        justify-self: end;
+        margin-top: 2rem;
+    }
+
+    .btn-delete {
+        margin-left: 1rem;
     }
 
     @media (min-width: 992px) {

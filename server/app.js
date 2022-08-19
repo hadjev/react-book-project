@@ -1,35 +1,28 @@
-require("dotenv").config();
-require("express-async-errors");
-const mongoose = require("mongoose");
+require('dotenv').config();
+require('express-async-errors');
 
-const express = require("express");
+const mongoose = require('mongoose');
+const cors = require('cors');
+
+const express = require('express');
 const app = express();
 
-const booksRouter = require("./routes/books");
+const booksRouter = require('./routes/books');
 
-const notFoundMiddleware = require("./middleware/not-found");
-const errorMiddleware = require("./middleware/error-handler");
+const notFoundMiddleware = require('./middleware/not-found');
+const errorMiddleware = require('./middleware/error-handler');
 
 // middleware
 app.use(express.json());
-
-// CORS
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
+app.use(cors());
 
 // routes
 
-app.get("/", (req, res) => {
-  res.send('<h1>Store API</h1><a href="/api/v1/books">books route</a>');
+app.get('/', (req, res) => {
+    res.send('<h1>Store API</h1><a href="/api/v1/books">books route</a>');
 });
 
-app.use("/api/v1/books", booksRouter);
+app.use('/api/v1/books', booksRouter);
 
 app.use(notFoundMiddleware);
 app.use(errorMiddleware);
@@ -37,13 +30,15 @@ app.use(errorMiddleware);
 const port = process.env.PORT || 3005;
 
 const start = async () => {
-  try {
-    // connectDB
-    await mongoose.connect("mongodb://localhost:27017/books");
-    app.listen(port, () => console.log(`Server is listening port ${port}...`));
-  } catch (error) {
-    console.log(error);
-  }
+    try {
+        // connectDB
+        await mongoose.connect('mongodb://localhost:27017/books');
+        app.listen(port, () =>
+            console.log(`Server is listening port ${port}...`)
+        );
+    } catch (error) {
+        console.log(error);
+    }
 };
 
 start();

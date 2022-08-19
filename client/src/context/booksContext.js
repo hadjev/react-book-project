@@ -1,3 +1,4 @@
+import { Link, Navigate } from 'react-router-dom';
 import React, { useContext, useEffect, useReducer } from 'react';
 
 import axios from 'axios';
@@ -52,6 +53,19 @@ export const BookProvider = ({ children }) => {
             dispatch({ type: 'getSingleBookError' });
         }
     };
+    const editSingleBook = async (isbn) => {};
+
+    const deleteSingleBook = async (isbn) => {
+        try {
+            // await axios.delete(`${baseUrl}/${isbn}`);
+            dispatch({ type: 'deleteSingleBook', payload: isbn });
+            // await fetchBooks();
+            // window.scrollTo(0, 0);
+            console.log('book deleted');
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
     useEffect(() => {
         fetchBooks();
@@ -59,7 +73,13 @@ export const BookProvider = ({ children }) => {
 
     return (
         <AppContext.Provider
-            value={{ ...state, openSidebar, closeSidebar, fetchSingleBook }}
+            value={{
+                ...state,
+                openSidebar,
+                closeSidebar,
+                fetchSingleBook,
+                deleteSingleBook,
+            }}
         >
             {children}
         </AppContext.Provider>

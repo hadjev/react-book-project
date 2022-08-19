@@ -40,6 +40,13 @@ const booksReducer = (state, action) => {
         return { ...state, singleBookLoading: false, singleBookError: true };
     }
 
+    if (action.type === 'deleteSingleBook') {
+        state.books = state.books.filter(
+            (book) => book.isbn !== action.payload
+        );
+        return { ...state };
+    }
+
     throw new Error(`No Matching "${action.type}" - action type`);
 };
 
