@@ -1,3 +1,20 @@
+import {
+    FaBarcode,
+    FaRegGrinStars,
+    FaUserAlt,
+    FaUserFriends,
+} from 'react-icons/fa';
+import {
+    MdAttachMoney,
+    MdCorporateFare,
+    MdLibraryBooks,
+    MdOutlineTextSnippet,
+    MdTitle,
+} from 'react-icons/md';
+
+import { BsCalendarDate } from 'react-icons/bs';
+import { CgImage } from 'react-icons/cg';
+import { GiFountainPen } from 'react-icons/gi';
 import styled from 'styled-components';
 
 const EditSingleBook = ({ book, onClose, onBookCreate }) => {
@@ -6,9 +23,9 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
             <div className="overlay">
                 <div className="backdrop" onClick={onClose}></div>
                 <div className="modal">
-                    <div className="user-container">
+                    <div className="book-container">
                         <header className="headers">
-                            <h2>Add User</h2>
+                            <h2>Edit Book</h2>
                             <button className="btn close" onClick={onClose}>
                                 <svg
                                     aria-hidden="true"
@@ -33,7 +50,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                 <label htmlFor="title">Title</label>
                                 <div className="input-wrapper">
                                     <span>
-                                        <i className="fa-solid fa-image"></i>
+                                        <MdTitle />
                                     </span>
                                     <input
                                         id="title"
@@ -51,7 +68,11 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                 </label>
                                 <div className="input-wrapper">
                                     <span>
-                                        <i className="fa-solid fa-image"></i>
+                                        {book.authors.length > 1 ? (
+                                            <FaUserFriends />
+                                        ) : (
+                                            <FaUserAlt />
+                                        )}
                                     </span>
                                     <input
                                         id="authors"
@@ -66,7 +87,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                 <label htmlFor="imageUrl">Image Url</label>
                                 <div className="input-wrapper">
                                     <span>
-                                        <i className="fa-solid fa-image"></i>
+                                        <CgImage />
                                     </span>
                                     <input
                                         id="imageUrl"
@@ -81,7 +102,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                 <label htmlFor="description">Description</label>
                                 <div className="input-wrapper">
                                     <span>
-                                        <i className="fa-solid fa-image"></i>
+                                        <MdOutlineTextSnippet />
                                     </span>
                                     <textarea
                                         id="description"
@@ -99,7 +120,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                     <label htmlFor="isbn">ISBN</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-house-chimney"></i>
+                                            <FaBarcode />
                                         </span>
                                         <input
                                             id="isbn"
@@ -114,7 +135,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                     <label htmlFor="pageCount">Pages</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-house-chimney"></i>
+                                            <MdLibraryBooks />
                                         </span>
                                         <input
                                             id="pageCount"
@@ -129,7 +150,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                     <label htmlFor="price">Price</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-house-chimney"></i>
+                                            <MdAttachMoney />
                                         </span>
                                         <input
                                             id="price"
@@ -146,7 +167,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                     <label htmlFor="publisher">Publisher</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-user"></i>
+                                            <MdCorporateFare />
                                         </span>
                                         <input
                                             id="publisher"
@@ -163,7 +184,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                     </label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-user"></i>
+                                            <BsCalendarDate />
                                         </span>
                                         <input
                                             id="publishedDate"
@@ -180,7 +201,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                     <label htmlFor="reviews">Reviews</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-house-chimney"></i>
+                                            <GiFountainPen />
                                         </span>
                                         <input
                                             id="reviews"
@@ -195,7 +216,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                     <label htmlFor="stars">Stars</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-house-chimney"></i>
+                                            <FaRegGrinStars />
                                         </span>
                                         <input
                                             id="stars"
@@ -386,7 +407,7 @@ const Wrapper = styled.div`
     }
 
     /* Add/Edit form styles  */
-    .user-container {
+    .book-container {
         width: 100%;
         height: 100%;
     }
@@ -423,6 +444,7 @@ const Wrapper = styled.div`
         border: 1px solid #d5dee6;
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px;
+        font-size: 25px;
     }
 
     .input-wrapper span i {

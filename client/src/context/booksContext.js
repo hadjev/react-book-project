@@ -76,8 +76,9 @@ export const BookProvider = ({ children }) => {
         book.stars = Number(book.stars);
 
         try {
-            // await axios.put(`${baseUrl}/${isbn}`, book);
+            await axios.put(`${baseUrl}/${isbn}`, book);
             dispatch({ type: 'editSingleBook', payload: { isbn, book } });
+            closeOverlay();
             console.log('form submit');
         } catch (error) {
             console.log(error);

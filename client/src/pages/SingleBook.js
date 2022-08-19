@@ -26,28 +26,6 @@ function SingleBook() {
     const navigate = useNavigate();
     const { isbn } = useParams();
 
-    // const onEditHandler = () => {
-    //     window.scrollTo(0, 0);
-    //     setOverlayStatus(true);
-    // };
-
-    // const onCloseHandler = () => {
-    //     window.scrollTo(0, 0);
-    //     setOverlayStatus(false);
-    // };
-
-    useEffect(() => {
-        fetchSingleBook(`${url}${isbn}`);
-    }, []);
-
-    if (loading) {
-        return <Loading />;
-    }
-
-    if (error) {
-        return <Error />;
-    }
-
     const {
         title,
         authors = [],
@@ -60,6 +38,22 @@ function SingleBook() {
         stars,
         reviews,
     } = singleBook;
+
+    useEffect(() => {
+        fetchSingleBook(`${url}${isbn}`);
+    }, []);
+
+    // useEffect(() => {
+    //     <SingleBook />;
+    // }, [singleBook]);
+
+    if (loading) {
+        return <Loading />;
+    }
+
+    if (error) {
+        return <Error />;
+    }
 
     return (
         <Wrapper>

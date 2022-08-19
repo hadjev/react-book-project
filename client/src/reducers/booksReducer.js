@@ -51,19 +51,15 @@ const booksReducer = (state, action) => {
     }
 
     if (action.type === 'editSingleBook') {
-        // const updatedBook = state.books.find(
-        //     (book) => book.isbn === action.payload.isbn
-        // );
-        // console.log(updatedBook);
-
-        const updatedBooks = state.books.map((book) => {
+        let updatedBook = state.books.find((book) => {
             if (book.isbn === action.payload.isbn) {
                 return action.payload.book;
             }
+
             return book;
         });
 
-        return { ...state, books: updatedBooks };
+        return { ...state, singleBook: updatedBook };
     }
 
     if (action.type === 'deleteSingleBook') {
