@@ -1,6 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 
+import CreateNewBook from '../components/crud/CreateNewBook';
 import EditSingleBook from '../components/crud/EditSingleBook';
 import Error from '../components/Error.js';
 import Loading from '../components/Loading.js';
@@ -43,7 +44,7 @@ function SingleBook() {
         fetchSingleBook(`${url}${isbn}`);
     }, []);
 
-    // useEffect(() => {}, [singleBook]);
+    console.log(isbn);
 
     if (loading) {
         return <Loading />;
@@ -54,70 +55,76 @@ function SingleBook() {
     }
 
     return (
-        <Wrapper>
-            {isOverlayOpen && (
-                <EditSingleBook
-                    book={singleBook}
-                    onClose={closeOverlay}
-                    onBookEdit={editSingleBook}
-                />
-            )}
-            <PageHero />
-            <div className="section section-center page">
-                <Link to="/books" className="btn">
-                    back to books
-                </Link>
-                <div className="book-center">
-                    <img src={imageUrl} alt={title} />
-                    <section className="content">
-                        <h2>{title}</h2>
-                        <p>
-                            by{' '}
-                            <span className="authors">
-                                {authors.join(', ')}
-                            </span>
-                        </p>
-                        <Stars stars={stars} reviews={reviews} />
-                        <h5 className="price">${price}</h5>
-                        <p className="description">{description}</p>
-                        <p className="info">
-                            <span>Publisher: </span>
-                            {publisher}
-                        </p>
-                        <p className="info">
-                            <span>Published Date: </span>
-                            {publishedDate}
-                        </p>
-                        <p className="info">
-                            <span>Pages: </span>
-                            {pageCount}
-                        </p>
-                        <p className="info">
-                            <span>ISBN: </span>
-                            {isbn}
-                        </p>
-                        <div className="buttons">
-                            <button
-                                className="btn btn-edit"
-                                onClick={openOverlay}
-                            >
-                                edit book
-                            </button>
+        <>
+            {isbn === 'create-new-book' ? (
+                <CreateNewBook />
+            ) : (
+                <Wrapper>
+                    {isOverlayOpen && (
+                        <EditSingleBook
+                            book={singleBook}
+                            onClose={closeOverlay}
+                            onBookEdit={editSingleBook}
+                        />
+                    )}
+                    <PageHero />
+                    <div className="section section-center page">
+                        <Link to="/books" className="btn">
+                            back to books
+                        </Link>
+                        <div className="book-center">
+                            <img src={imageUrl} alt={title} />
+                            <section className="content">
+                                <h2>{title}</h2>
+                                <p>
+                                    by{' '}
+                                    <span className="authors">
+                                        {authors.join(', ')}
+                                    </span>
+                                </p>
+                                <Stars stars={stars} reviews={reviews} />
+                                <h5 className="price">${price}</h5>
+                                <p className="description">{description}</p>
+                                <p className="info">
+                                    <span>Publisher: </span>
+                                    {publisher}
+                                </p>
+                                <p className="info">
+                                    <span>Published Date: </span>
+                                    {publishedDate}
+                                </p>
+                                <p className="info">
+                                    <span>Pages: </span>
+                                    {pageCount}
+                                </p>
+                                <p className="info">
+                                    <span>ISBN: </span>
+                                    {isbn}
+                                </p>
+                                <div className="buttons">
+                                    <button
+                                        className="btn btn-edit"
+                                        onClick={openOverlay}
+                                    >
+                                        edit book
+                                    </button>
 
-                            <button
-                                className="btn btn-delete"
-                                onClick={() => {
-                                    deleteSingleBook(isbn);
-                                    navigate(-1);
-                                }}
-                            >
-                                delete book
-                            </button>
+                                    <button
+                                        className="btn btn-delete"
+                                        onClick={() => {
+                                            deleteSingleBook(isbn);
+                                            navigate('/books');
+                                        }}
+                                    >
+                                        delete book
+                                    </button>
+                                </div>
+                            </section>
                         </div>
-                    </section>
-                </div>
-            </div>
-        </Wrapper>
+                    </div>
+                </Wrapper>
+            )}
+        </>
     );
 }
 

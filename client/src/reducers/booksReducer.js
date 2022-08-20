@@ -50,6 +50,11 @@ const booksReducer = (state, action) => {
         return { ...state, isOverlayOpen: false };
     }
 
+    // maybe together
+    if (action.type === 'createSingleBook') {
+        return { ...state, singleBook: action.payload.book };
+    }
+
     if (action.type === 'editSingleBook') {
         return { ...state, singleBook: action.payload.book };
     }

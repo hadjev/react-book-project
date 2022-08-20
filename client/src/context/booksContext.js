@@ -62,18 +62,41 @@ export const BookProvider = ({ children }) => {
         dispatch({ type: 'overlay close' });
     };
 
+    const transformDataHelper = (book) => {
+        book.authors = book.authors.split(', ');
+        book.pageCount = Number(book.pageCount);
+        book.price = Number(book.price);
+        book.reviews = Number(book.reviews);
+        book.stars = Number(book.stars);
+
+        return book;
+    };
+
+    const createNewBook = async (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(e.target);
+
+        // Transform data to proper format
+        const book = transformDataHelper(Object.fromEntries(formData));
+        console.log(book);
+
+        try {
+            await axios.post(baseUrl, book);
+            dispatch({ type: 'createSingleBook', payload: { book } });
+            closeOverlay();
+        } catch (error) {
+            console.log(error);
+        }
+    };
+
     const editSingleBook = async (e, isbn) => {
         e.preventDefault();
 
         const formData = new FormData(e.target);
 
         // Transform data to proper format
-        const book = Object.fromEntries(formData);
-        book.authors = book.authors.split(', ');
-        book.pageCount = Number(book.pageCount);
-        book.price = Number(book.price);
-        book.reviews = Number(book.reviews);
-        book.stars = Number(book.stars);
+        const book = transformDataHelper(Object.fromEntries(formData));
 
         try {
             await axios.put(`${baseUrl}/${isbn}`, book);
@@ -109,6 +132,7 @@ export const BookProvider = ({ children }) => {
                 deleteSingleBook,
                 openOverlay,
                 closeOverlay,
+                createNewBook,
             }}
         >
             {children}

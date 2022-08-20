@@ -1,15 +1,41 @@
-import styled from 'styled-components';
+import {
+    FaBarcode,
+    FaRegGrinStars,
+    FaUserAlt,
+    FaUserFriends,
+} from 'react-icons/fa';
+import {
+    MdAttachMoney,
+    MdCorporateFare,
+    MdLibraryBooks,
+    MdOutlineTextSnippet,
+    MdTitle,
+} from 'react-icons/md';
 
-const EditSingleBook = ({ book, onClose, onBookCreate }) => {
-    console.log(book._id);
+import { BsCalendarDate } from 'react-icons/bs';
+import { CgImage } from 'react-icons/cg';
+import { GiFountainPen } from 'react-icons/gi';
+import styled from 'styled-components';
+import { useBooksContext } from '../../context/booksContext.js';
+import { useNavigate } from 'react-router-dom';
+
+const CreateNewBook = () => {
+    const { createNewBook } = useBooksContext();
+
+    const navigate = useNavigate();
+
+    const onClose = () => {
+        navigate(-1);
+    };
+
     return (
         <Wrapper>
             <div className="overlay">
                 <div className="backdrop" onClick={onClose}></div>
                 <div className="modal">
-                    <div className="user-container">
+                    <div className="book-container">
                         <header className="headers">
-                            <h2>Add User</h2>
+                            <h2>Edit Book</h2>
                             <button className="btn close" onClick={onClose}>
                                 <svg
                                     aria-hidden="true"
@@ -29,73 +55,49 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                             </button>
                         </header>
 
-                        <form onSubmit={(e) => onBookCreate(e, book._id)}>
-                            <div className="form-row">
-                                <div className="form-group">
-                                    <label htmlFor="firstName">
-                                        First name
-                                    </label>
-                                    <div className="input-wrapper">
-                                        <span>
-                                            <i className="fa-solid fa-user"></i>
-                                        </span>
-                                        <input
-                                            id="firstName"
-                                            name="firstName"
-                                            type="text"
-                                            defaultValue={book.title}
-                                        />
-                                    </div>
-                                </div>
-                                <div className="form-group">
-                                    <label htmlFor="lastName">Last name</label>
-                                    <div className="input-wrapper">
-                                        <span>
-                                            <i className="fa-solid fa-user"></i>
-                                        </span>
-                                        <input
-                                            id="lastName"
-                                            name="lastName"
-                                            type="text"
-                                        />
-                                    </div>
+                        <form
+                            onSubmit={(e) => {
+                                createNewBook(e);
+                                console.log();
+                                const isbn = e.target.isbn.value;
+                                navigate(`/books/${isbn}`);
+                            }}
+                        >
+                            <div className="form-group long-line">
+                                <label htmlFor="title">Title</label>
+                                <div className="input-wrapper">
+                                    <span>
+                                        <MdTitle />
+                                    </span>
+                                    <input
+                                        id="title"
+                                        name="title"
+                                        type="text"
+                                        defaultValue="AAA"
+                                    />
                                 </div>
                             </div>
-                            <div className="form-row">
-                                <div className="form-group">
-                                    <label htmlFor="email">Email</label>
-                                    <div className="input-wrapper">
-                                        <span>
-                                            <i className="fa-solid fa-envelope"></i>
-                                        </span>
-                                        <input
-                                            id="email"
-                                            name="email"
-                                            type="text"
-                                        />
-                                    </div>
-                                </div>
-                                <div className="form-group">
-                                    <label htmlFor="phoneNumber">
-                                        Phone number
-                                    </label>
-                                    <div className="input-wrapper">
-                                        <span>
-                                            <i className="fa-solid fa-phone"></i>
-                                        </span>
-                                        <input
-                                            id="phoneNumber"
-                                            name="phoneNumber"
-                                            type="text"
-                                        />
-                                    </div>
+
+                            <div className="form-group long-line">
+                                <label htmlFor="authors">
+                                    Authors (Comma separated eg. J. K. Rowling,
+                                    George R. R. Martin)
+                                </label>
+                                <div className="input-wrapper">
+                                    <span>{<FaUserAlt />}</span>
+                                    <input
+                                        id="authors"
+                                        name="authors"
+                                        type="text"
+                                    />
                                 </div>
                             </div>
+
                             <div className="form-group long-line">
                                 <label htmlFor="imageUrl">Image Url</label>
                                 <div className="input-wrapper">
                                     <span>
-                                        <i className="fa-solid fa-image"></i>
+                                        <CgImage />
                                     </span>
                                     <input
                                         id="imageUrl"
@@ -104,64 +106,130 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                                     />
                                 </div>
                             </div>
+
+                            <div className="form-group long-line">
+                                <label htmlFor="description">Description</label>
+                                <div className="input-wrapper">
+                                    <span>
+                                        <MdOutlineTextSnippet />
+                                    </span>
+                                    <textarea
+                                        id="description"
+                                        name="description"
+                                        // type="text"
+                                        rows="7"
+                                        cols="33"
+                                    ></textarea>
+                                </div>
+                            </div>
+
                             <div className="form-row">
                                 <div className="form-group">
-                                    <label htmlFor="country">Country</label>
+                                    <label htmlFor="isbn">ISBN</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-map"></i>
+                                            <FaBarcode />
                                         </span>
                                         <input
-                                            id="country"
-                                            name="country"
+                                            id="isbn"
+                                            name="isbn"
+                                            type="text"
+                                            defaultValue="1234567890"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className="form-group">
+                                    <label htmlFor="pageCount">Pages</label>
+                                    <div className="input-wrapper">
+                                        <span>
+                                            <MdLibraryBooks />
+                                        </span>
+                                        <input
+                                            id="pageCount"
+                                            name="pageCount"
                                             type="text"
                                         />
                                     </div>
                                 </div>
+
                                 <div className="form-group">
-                                    <label htmlFor="city">City</label>
+                                    <label htmlFor="price">Price</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-city"></i>
+                                            <MdAttachMoney />
                                         </span>
                                         <input
-                                            id="city"
-                                            name="city"
+                                            id="price"
+                                            name="price"
                                             type="text"
                                         />
                                     </div>
                                 </div>
                             </div>
+
                             <div className="form-row">
                                 <div className="form-group">
-                                    <label htmlFor="street">Street</label>
+                                    <label htmlFor="publisher">Publisher</label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-map"></i>
+                                            <MdCorporateFare />
                                         </span>
                                         <input
-                                            id="street"
-                                            name="street"
+                                            id="publisher"
+                                            name="publisher"
                                             type="text"
                                         />
                                     </div>
                                 </div>
+
                                 <div className="form-group">
-                                    <label htmlFor="streetNumber">
-                                        Street number
+                                    <label htmlFor="publishedDate">
+                                        Date Published
                                     </label>
                                     <div className="input-wrapper">
                                         <span>
-                                            <i className="fa-solid fa-house-chimney"></i>
+                                            <BsCalendarDate />
                                         </span>
                                         <input
-                                            id="streetNumber"
-                                            name="streetNumber"
+                                            id="publishedDate"
+                                            name="publishedDate"
                                             type="text"
                                         />
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="form-row">
+                                <div className="form-group">
+                                    <label htmlFor="reviews">Reviews</label>
+                                    <div className="input-wrapper">
+                                        <span>
+                                            <GiFountainPen />
+                                        </span>
+                                        <input
+                                            id="reviews"
+                                            name="reviews"
+                                            type="text"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className="form-group">
+                                    <label htmlFor="stars">Stars</label>
+                                    <div className="input-wrapper">
+                                        <span>
+                                            <FaRegGrinStars />
+                                        </span>
+                                        <input
+                                            id="stars"
+                                            name="stars"
+                                            type="text"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
                             <div id="form-actions">
                                 <button
                                     id="action-save"
@@ -341,7 +409,7 @@ const Wrapper = styled.div`
     }
 
     /* Add/Edit form styles  */
-    .user-container {
+    .book-container {
         width: 100%;
         height: 100%;
     }
@@ -378,6 +446,7 @@ const Wrapper = styled.div`
         border: 1px solid #d5dee6;
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px;
+        font-size: 25px;
     }
 
     .input-wrapper span i {
@@ -390,7 +459,8 @@ const Wrapper = styled.div`
         vertical-align: -0.125em;
     }
 
-    .input-wrapper input {
+    .input-wrapper input,
+    textarea {
         width: 100%;
         font-weight: 400;
         line-height: 1.5;
@@ -402,6 +472,10 @@ const Wrapper = styled.div`
         background-color: #f7f7f7;
         border-top-right-radius: 1.25rem;
         border-bottom-right-radius: 1.25rem;
+    }
+
+    .input-wrapper textarea {
+        height: 150px;
     }
 
     .form-row {
@@ -448,4 +522,4 @@ const Wrapper = styled.div`
     }
 `;
 
-export default EditSingleBook;
+export default CreateNewBook;

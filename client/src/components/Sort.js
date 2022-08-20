@@ -1,5 +1,6 @@
 import { BsFillGridFill, BsList } from 'react-icons/bs';
 
+import { Link } from 'react-router-dom';
 import React from 'react';
 import styled from 'styled-components';
 import { useFilterContext } from '../context/filterContext';
@@ -26,13 +27,17 @@ const Sort = () => {
                     <option value="name-desc">name (z-a)</option>
                 </select>
             </form>
+            {/* <button className="btn new-book">new book</button> */}
+            <Link to={`/books/create-new-book`} className="btn">
+                new book
+            </Link>
         </Wrapper>
     );
 };
 
 const Wrapper = styled.section`
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto auto;
     align-items: center;
     margin-bottom: 2rem;
     column-gap: 2rem;
