@@ -17,7 +17,7 @@ import { CgImage } from 'react-icons/cg';
 import { GiFountainPen } from 'react-icons/gi';
 import styled from 'styled-components';
 
-const EditSingleBook = ({ book, onClose, onBookCreate }) => {
+const EditSingleBook = ({ book, onClose, onBookEdit }) => {
     return (
         <Wrapper>
             <div className="overlay">
@@ -45,7 +45,7 @@ const EditSingleBook = ({ book, onClose, onBookCreate }) => {
                             </button>
                         </header>
 
-                        <form onSubmit={(e) => onBookCreate(e, book.isbn)}>
+                        <form onSubmit={(e) => onBookEdit(e, book.isbn)}>
                             <div className="form-group long-line">
                                 <label htmlFor="title">Title</label>
                                 <div className="input-wrapper">

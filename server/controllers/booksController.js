@@ -26,10 +26,8 @@ const createBook = async (req, res) => {
 
 const getSingleBook = async (req, res) => {
     const book = await Book.find({ isbn: req.params.isbn });
-    console.log(req.params.isbn);
-    console.log(book);
 
-    res.status(200).json({ book });
+    res.status(200).json(book[0]);
 };
 
 const updateBook = async (req, res) => {

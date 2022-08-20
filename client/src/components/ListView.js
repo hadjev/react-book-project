@@ -22,7 +22,11 @@ const ListView = ({ books }) => {
                             </p>
                             <h5 className="price">${price}</h5>
                             <p>{description?.substring(0, 150)}...</p>
-                            <Link to={`/books/${isbn}`} className="btn">
+                            <Link
+                                to={`/books/${isbn}`}
+                                className="btn"
+                                onClick={() => console.log(isbn)}
+                            >
                                 details
                             </Link>
                         </div>

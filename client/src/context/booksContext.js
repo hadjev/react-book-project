@@ -47,7 +47,7 @@ export const BookProvider = ({ children }) => {
 
         try {
             const response = await axios.get(url);
-            const singleBook = await response.data.book[0];
+            const singleBook = await response.data;
             dispatch({ type: 'getSingleBookSuccess', payload: singleBook });
         } catch (error) {
             dispatch({ type: 'getSingleBookError' });
@@ -77,9 +77,8 @@ export const BookProvider = ({ children }) => {
 
         try {
             await axios.put(`${baseUrl}/${isbn}`, book);
-            dispatch({ type: 'editSingleBook', payload: { isbn, book } });
+            dispatch({ type: 'editSingleBook', payload: { book } });
             closeOverlay();
-            console.log('form submit');
         } catch (error) {
             console.log(error);
         }

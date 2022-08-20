@@ -6,11 +6,14 @@ import Error from '../components/Error.js';
 import Loading from '../components/Loading.js';
 import PageHero from '../components/PageHero.js';
 import Stars from '../components/Stars.js';
+import axios from 'axios';
 import styled from 'styled-components';
 import { singleBookISBNUrl as url } from '../utils/singleBookUrl';
 import { useBooksContext } from '../context/booksContext.js';
 
 function SingleBook() {
+    const [currentBook, setCurrentBook] = useState({});
+
     const {
         singleBookLoading: loading,
         singleBookError: error,
@@ -37,13 +40,17 @@ function SingleBook() {
         price,
         stars,
         reviews,
-    } = singleBook;
+    } = currentBook;
 
     useEffect(() => {
-        fetchSingleBook(`${url}${isbn}`);
+        const fetching = async () => {
+            const response = await axios(`${url}${isbn}`);
+            const book = await response.data;
+            setCurrentBook(book);
+            console.log(currentBook);
+        };
+        fetching();
     }, []);
-
-    // useEffect(() => {}, [singleBook]);
 
     if (loading) {
         return <Loading />;
@@ -57,9 +64,9 @@ function SingleBook() {
         <Wrapper>
             {isOverlayOpen && (
                 <EditSingleBook
-                    book={singleBook}
+                    book={currentBook}
                     onClose={closeOverlay}
-                    onBookEdit={editSingleBook}
+                    onBookCreate={editSingleBook}
                 />
             )}
             <PageHero />

@@ -51,15 +51,7 @@ const booksReducer = (state, action) => {
     }
 
     if (action.type === 'editSingleBook') {
-        let updatedBook = state.books.find((book) => {
-            if (book.isbn === action.payload.isbn) {
-                return action.payload.book;
-            }
-
-            return book;
-        });
-
-        return { ...state, singleBook: updatedBook };
+        return { ...state, singleBook: action.payload.book };
     }
 
     if (action.type === 'deleteSingleBook') {
