@@ -7,6 +7,12 @@ const initialState = {
     filteredBooks: [],
     allBooks: [],
     sort: '',
+    filters: {
+        text: '',
+        minPrice: 0,
+        maxPrice: 0,
+        price: 0,
+    },
 };
 
 const FilterContext = React.createContext();
@@ -19,15 +25,28 @@ export const FilterProvider = ({ children }) => {
         dispatch({ type: 'load books', payload: books });
     }, [books]);
 
-    const sortBooks = (e) => {
-        // const name = e.target.name;
-        const value = e.target.value;
+    useEffect(() => {
+        dispatch({ type: 'filter books' });
+        dispatch({ type: 'sort books' });
+    }, [books, state.sort, state.filters]);
 
-        dispatch({ type: 'sort books', payload: value });
+    const updateSort = (e) => {
+        const value = e.target.value;
+        dispatch({ type: 'update sort', payload: value });
     };
 
+    const updateFilters = (e) => {
+        const name = e.target.name;
+        const value = e.target.value;
+        dispatch({ type: 'updateFilters', payload: { name, value } });
+    };
+
+    const clearFilters = () => {};
+
     return (
-        <FilterContext.Provider value={{ ...state, sortBooks }}>
+        <FilterContext.Provider
+            value={{ ...state, updateFilters, clearFilters, updateSort }}
+        >
             {children}
         </FilterContext.Provider>
     );

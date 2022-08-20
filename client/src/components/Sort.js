@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import { useFilterContext } from '../context/filterContext';
 
 const Sort = () => {
-    const { filteredBooks: books, sort, sortBooks } = useFilterContext();
+    const { filteredBooks: books, sort, updateSort } = useFilterContext();
 
     return (
         <Wrapper>
@@ -18,7 +18,8 @@ const Sort = () => {
                     name="sort"
                     id="sort"
                     className="sort-input"
-                    onChange={sortBooks}
+                    value={sort}
+                    onChange={updateSort}
                 >
                     <option value="sort-by">sort by...</option>
                     <option value="price-lowest">price (lowest)</option>
@@ -27,7 +28,6 @@ const Sort = () => {
                     <option value="name-desc">name (z-a)</option>
                 </select>
             </form>
-            {/* <button className="btn new-book">new book</button> */}
             <Link to={`/books/create-new-book`} className="btn">
                 new book
             </Link>
