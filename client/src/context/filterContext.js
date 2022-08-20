@@ -37,11 +37,18 @@ export const FilterProvider = ({ children }) => {
 
     const updateFilters = (e) => {
         const name = e.target.name;
-        const value = e.target.value;
+        let value = e.target.value;
+
+        if (name === 'price') {
+            value = Number(value);
+        }
+
         dispatch({ type: 'updateFilters', payload: { name, value } });
     };
 
-    const clearFilters = () => {};
+    const clearFilters = () => {
+        dispatch({ type: 'clear filters' });
+    };
 
     return (
         <FilterContext.Provider

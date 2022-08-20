@@ -6,12 +6,19 @@ import styled from 'styled-components';
 import { useFilterContext } from '../context/filterContext';
 
 const Filters = () => {
-    const {
+    let {
         filters: { text, minPrice, maxPrice, price },
         updateFilters,
         clearFilters,
         allBooks,
     } = useFilterContext();
+
+    // Format price
+    const formatPrice = (price) => {
+        price /= 100;
+        return price.toFixed(2);
+    };
+
     return (
         <Wrapper>
             <div className="content">
@@ -27,7 +34,26 @@ const Filters = () => {
                             onChange={updateFilters}
                         />
                     </div>
+                    <div className="form-control">
+                        <h5>price</h5>
+                        <p className="price">${formatPrice(price)}</p>
+                        <input
+                            type="range"
+                            name="price"
+                            onChange={updateFilters}
+                            min={minPrice}
+                            max={maxPrice}
+                            value={price}
+                        />
+                    </div>
                 </form>
+                <button
+                    type="button"
+                    className="clear-btn"
+                    onClick={clearFilters}
+                >
+                    clear filters
+                </button>
             </div>
         </Wrapper>
     );

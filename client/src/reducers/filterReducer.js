@@ -1,6 +1,7 @@
 const filterReducer = (state, action) => {
     if (action.type === 'load books') {
-        const maxPrice = Math.max(...action.payload.map((book) => book.price));
+        const maxPrice =
+            Math.max(...action.payload.map((book) => book.price)) * 100;
 
         return {
             ...state,
@@ -46,8 +47,44 @@ const filterReducer = (state, action) => {
     }
 
     if (action.type === 'filter books') {
-        console.log('asdf');
-        return { ...state };
+        const { allBooks } = state;
+        const { text, price } = state.filters;
+
+        let tempBooks = [...allBooks];
+
+        if (text) {
+            tempBooks = tempBooks.filter((book) => {
+                if (book.title.toLowerCase().includes(text.toLowerCase())) {
+                    return book;
+                }
+                if (book.description) {
+                    if (
+                        book.description
+                            .toLowerCase()
+                            .includes(text.toLowerCase())
+                    ) {
+                        return book;
+                    }
+                }
+            });
+        }
+
+        tempBooks = tempBooks.filter((book) => {
+            return book.price <= price / 100;
+        });
+
+        return { ...state, filteredBooks: tempBooks };
+    }
+
+    if (action.type === 'clear filters') {
+        return {
+            ...state,
+            filters: {
+                ...state.filters,
+                text: '',
+                price: state.filters.maxPrice,
+            },
+        };
     }
 
     throw new Error(`No matching "${action.type}" action type`);
