@@ -1,3 +1,5 @@
+// TODO: Make one file -> Edit... + CreateNew
+
 import {
     FaBarcode,
     FaRegGrinStars,
@@ -461,6 +463,7 @@ const Wrapper = styled.div`
     textarea {
         width: 100%;
         font-weight: 400;
+        font-size: 1.1rem;
         line-height: 1.5;
         border: 1px solid #d5dee6;
         border-left: none;

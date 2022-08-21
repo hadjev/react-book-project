@@ -1,3 +1,5 @@
+// TODO: Make one file -> Edit... + CreateNew
+
 import {
     FaBarcode,
     FaRegGrinStars,
@@ -35,7 +37,7 @@ const CreateNewBook = () => {
                 <div className="modal">
                     <div className="book-container">
                         <header className="headers">
-                            <h2>Edit Book</h2>
+                            <h2>New Book</h2>
                             <button className="btn close" onClick={onClose}>
                                 <svg
                                     aria-hidden="true"
@@ -463,6 +465,7 @@ const Wrapper = styled.div`
     textarea {
         width: 100%;
         font-weight: 400;
+        font-size: 1.1rem;
         line-height: 1.5;
         border: 1px solid #d5dee6;
         border-left: none;
