@@ -1,5 +1,5 @@
-import { Link, useNavigate, useParams } from 'react-router-dom';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 
 import CreateNewBook from '../components/crud/createNewBook';
 import EditSingleBook from '../components/crud/EditSingleBook';
@@ -69,9 +69,9 @@ function SingleBook() {
                     )}
                     <PageHero />
                     <div className="section section-center page">
-                        <Link to="/books" className="btn">
+                        <button className="btn" onClick={() => navigate(-1)}>
                             back to books
-                        </Link>
+                        </button>
                         <div className="book-center">
                             <img src={imageUrl} alt={title} />
                             <section className="content">
