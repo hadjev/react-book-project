@@ -1,7 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 
-import CreateNewBook from '../components/crud/CreateNewBook';
+import CreateNewBook from '../components/crud/createNewBook';
 import EditSingleBook from '../components/crud/EditSingleBook';
 import Error from '../components/Error.js';
 import Loading from '../components/Loading.js';
