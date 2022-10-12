@@ -47,7 +47,6 @@ function SingleBook() {
             const response = await axios(`${url}${isbn}`);
             const book = await response.data;
             setCurrentBook(book);
-            console.log(currentBook);
         };
         fetching();
     }, []);

@@ -34,7 +34,7 @@ const start = async () => {
         // connectDB
         await mongoose.connect('mongodb://localhost:27017/books');
         app.listen(port, () =>
-            console.log(`Server is listening port ${port}...`)
+            console.log(`Server is listening on port ${port}...`)
         );
     } catch (error) {
         console.log(error);

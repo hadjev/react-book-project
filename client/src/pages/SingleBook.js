@@ -44,8 +44,6 @@ function SingleBook() {
         fetchSingleBook(`${url}${isbn}`);
     }, []);
 
-    console.log(isbn);
-
     if (loading) {
         return <Loading />;
     }

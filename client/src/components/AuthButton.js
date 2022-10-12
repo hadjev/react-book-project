@@ -5,8 +5,6 @@ import { useAuth0 } from '@auth0/auth0-react';
 function AuthButton() {
     const { loginWithRedirect, user, logout } = useAuth0();
 
-    console.log(user);
-
     return (
         <Wrapper className="auth-btn-wrapper">
             {user ? (

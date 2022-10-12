@@ -60,7 +60,6 @@ const CreateNewBook = () => {
                         <form
                             onSubmit={(e) => {
                                 createNewBook(e);
-                                console.log();
                                 const isbn = e.target.isbn.value;
                                 navigate(`/books/${isbn}`);
                             }}
@@ -75,7 +74,6 @@ const CreateNewBook = () => {
                                         id="title"
                                         name="title"
                                         type="text"
-                                        defaultValue="AAA"
                                     />
                                 </div>
                             </div>
@@ -136,7 +134,6 @@ const CreateNewBook = () => {
                                             id="isbn"
                                             name="isbn"
                                             type="text"
-                                            defaultValue="1234567890"
                                         />
                                     </div>
                                 </div>

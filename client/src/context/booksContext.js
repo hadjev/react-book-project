@@ -79,7 +79,6 @@ export const BookProvider = ({ children }) => {
 
         // Transform data to proper format
         const book = transformDataHelper(Object.fromEntries(formData));
-        console.log(book);
 
         try {
             await axios.post(baseUrl, book);
@@ -111,7 +110,6 @@ export const BookProvider = ({ children }) => {
         try {
             await axios.delete(`${baseUrl}/${isbn}`);
             dispatch({ type: 'deleteSingleBook', payload: isbn });
-            console.log('book deleted');
         } catch (error) {
             console.log(error);
         }
